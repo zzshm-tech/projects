@@ -1,0 +1,143 @@
+# this file is to be included in target.def by dev targets that use the 
+# flash_SPI_32M 
+#
+ifeq "${RAM_SIZE_FLAG}" "__16Mbit__"
+    RAM_PHY_SIZE:=          0x00200000
+else
+ifeq "${RAM_SIZE_FLAG}" "__32Mbit__"
+    RAM_PHY_SIZE:=          0x00400000
+else
+ifeq "${RAM_SIZE_FLAG}" "__64Mbit__"
+    RAM_PHY_SIZE:=          0x00800000
+endif
+endif
+endif
+
+ifeq "${CT_COMPRESS_CODE_SECTION}" "yes"
+ifeq "${COMPRESS_STATE}" "3264"
+ifeq "${APART}" "1"
+    RAM_SIZE?=		0x00480000
+else
+    RAM_SIZE?=		0x00480000
+endif
+else
+ifeq "${COMPRESS_STATE}" "3232"
+    RAM_SIZE?=		0x00270000
+else
+ifeq "${COMPRESS_STATE}" "QVGA3232"
+    RAM_SIZE:=		0x002AE800
+else
+ifeq "${COMPRESS_STRATEGY}" "2"
+    RAM_SIZE?=              0x00270000
+else	
+    RAM_SIZE?=              0x003a8000
+endif
+endif    
+endif
+endif
+    XCPU_OVERLAY_BASE:=     ${RAM_SIZE}
+else
+    RAM_SIZE:=              ${RAM_PHY_SIZE}
+endif
+
+# form factor models can define the values directly in their target.def
+    FLASH_SIZE:=            0x00400000
+ifeq "${UPDATE_PROGRAM}" "1"
+    CALIB_BASE:=            0x003EC000
+    FACT_SETTINGS_BASE:=    0x003EE000
+else
+    CALIB_BASE:=            0x003FC000
+    FACT_SETTINGS_BASE:=    0x003FE000
+endif
+	
+ifeq "${COMPRESS_STATE_3264}" "NO_WAPMMS"
+    USER_DATA_BASE:=        0x003A0000
+    USER_DATA_SIZE:=        0x0005C000
+else
+ifeq "${COMPRESS_STATE}" "3264"
+ifeq "${COMPRESS_FLASH_PART4API}" "yes"
+ifeq "${APART}" "1"
+    USER_DATA_BASE:=        0x003B0000
+    USER_DATA_SIZE:=        0x0004C000
+else
+    USER_DATA_BASE:=        0x00380000
+    USER_DATA_SIZE:=        0x0007C000
+endif
+else
+ifeq "${UPDATE_PROGRAM}" "1"
+    USER_DATA_BASE:=        0x00370000
+else
+    USER_DATA_BASE:=        0x00380000
+endif
+    USER_DATA_SIZE:=        0x0007C000
+endif
+else
+ifeq "${COMPRESS_STATE}" "3232"
+    USER_DATA_BASE:=        0x00399000
+    USER_DATA_SIZE:=        0x00063000
+else
+ifeq "${COMPRESS_STATE}" "QVGA3232"
+    USER_DATA_BASE:=        0x00399000
+    USER_DATA_SIZE:=        0x00063000
+else
+ifeq "${UPDATE_PROGRAM}" "1"
+    USER_DATA_BASE:=        0x002F0000
+else
+    USER_DATA_BASE:=        0x00310000
+endif  	
+    USER_DATA_SIZE:=        0x000EC000
+endif
+endif    
+endif
+endif
+    USER_DATA_BLOCK_SIZE:=	0x00000200
+
+#specail software version for WOASIS(no bluetooth) S70 + API mode + APART
+ifeq "${MODE}" "api"
+ifeq "${SL_PLATFORM}" "S70"
+ifeq "${APART}" "1"
+	USER_DATA_BASE:=        0x00350000
+	USER_DATA_SIZE:=        0x000AC000
+endif
+endif
+endif
+
+#specail software version for S70 + BLUETOOTH + API mode + APART
+ifeq "${MODE}" "api"
+ifeq "${SL_PLATFORM}" "S70"
+ifeq "${APART}" "1"
+ifeq "${BLUETOOTH}" "1"
+	USER_DATA_BASE:=        0x00350000
+	USER_DATA_SIZE:=        0x000AC000
+endif
+endif
+endif
+endif
+
+#only for special customer
+ifeq "${MODE}" "at"
+ifeq "${LARGE_FS}" "1"
+ifeq "${UPDATE_PROGRAM}" "1"
+	USER_DATA_BASE:=        0x002B0000
+else
+	USER_DATA_BASE:=        0x002C0000
+endif	
+	USER_DATA_SIZE:=        0x0013C000
+endif
+endif
+
+#specail software version for S70 + BLUETOOTH + AT mode + TTS
+ifeq "${MODE}" "at"
+ifeq "${SL_PLATFORM}" "S70"
+ifeq "${TTS}" "1"
+ifeq "${BLUETOOTH}" "1"
+ifeq "${UPDATE_PROGRAM}" "1"
+	USER_DATA_BASE:=        0x00370000
+else
+	USER_DATA_BASE:=        0x00380000
+endif	
+	USER_DATA_SIZE:=        0x0007C000
+endif
+endif
+endif
+endif

@@ -1,0 +1,404 @@
+######## 此文件是芯片的集成配置，不能随意改动 ########
+
+CT_ASIC_CFG     ?= chip
+CT_ROMULATOR    ?= no
+
+AD_MODEL        ?= codec_gallite
+TSD_MODEL       ?= rda1203_gallite
+
+SW_MODEL        ?= 
+
+# Enable video player by default
+VIDEO_PLAYER_SUPPORT ?= 1
+
+# Strip the whitespaces from the variable values
+CT_ASIC_CFG := $(strip ${CT_ASIC_CFG})
+CT_ROMULATOR := $(strip ${CT_ROMULATOR})
+AD_MODEL := $(strip ${AD_MODEL})
+TSD_MODEL := $(strip ${TSD_MODEL})
+PA_MODEL := $(strip ${PA_MODEL})
+SW_MODEL := $(strip ${SW_MODEL})
+
+CT_ASIC := $(strip ${CT_ASIC})
+CT_CHIP_PKG := $(strip ${CT_CHIP_PKG})
+CT_CHIP_DIE := $(strip ${CT_CHIP_DIE})
+FM_MODEL := $(strip ${FM_MODEL})
+FM_USING_I2S := $(strip ${FM_USING_I2S})
+FM_USE_32K_CLK_PIN := $(strip ${FM_USE_32K_CLK_PIN})
+FLSH_MODEL := $(strip ${FLSH_MODEL})
+FLSH_IF := $(strip ${FLSH_IF})
+SYS_MEMD_EBC_CLK := $(strip ${SYS_MEMD_EBC_CLK})
+SYS_MEMD_FLSH_SPI_CLK := $(strip ${SYS_MEMD_FLSH_SPI_CLK})
+#LCD_MODEL := $(strip ${LCD_MODEL})
+LCD_IF := $(strip ${LCD_IF})
+USE_SPI_LCD := $(strip ${USE_SPI_LCD})
+#SUBLCD_MODEL := $(strip ${SUBLCD_MODEL})
+SUBLCD_IF := $(strip ${SUBLCD_IF})
+USE_SPI_SUBLCD := $(strip ${USE_SPI_SUBLCD})
+#CAMERA_MODEL := $(strip ${CAMERA_MODEL})
+CAMERA_IF := $(strip ${CAMERA_IF})
+#BT_MODEL := $(strip ${BT_MODEL})
+BT_SHARE_CRYSTAL := $(strip ${BT_SHARE_CRYSTAL})
+BT_USE_32K_CLK_PIN := $(strip ${BT_USE_32K_CLK_PIN})
+ATV_MODEL := $(strip ${ATV_MODEL})
+TV_USING_I2S := $(strip ${TV_USING_I2S})
+TV_USE_32K_CLK_PIN := $(strip ${TV_USE_32K_CLK_PIN})
+MCD_IF := $(strip ${MCD_IF})
+I2C_MODEL := $(strip ${I2C_MODEL})
+GSENSOR_MODEL := $(strip ${GSENSOR_MODEL})
+DUALSIM_MODEL := $(strip ${DUALSIM_MODEL})
+NUMBER_OF_SIM := $(strip ${NUMBER_OF_SIM})
+USER_SIM_ORDER := $(strip ${USER_SIM_ORDER})
+PA_VRAMP_220PF := $(strip ${PA_VRAMP_220PF})
+WIFI_MODEL := $(strip ${WIFI_MODEL})
+WIFI_USE_32K_CLK_PIN := $(strip ${WIFI_USE_32K_CLK_PIN})
+USE_EXT_XTAL_32K := $(strip ${USE_EXT_XTAL_32K})
+USE_32K_CLOCK_PIN := $(strip ${USE_32K_CLOCK_PIN})
+GPRS_SUPPORT := $(strip ${GPRS_SUPPORT})
+CES_DISPLAY := $(strip ${CES_DISPLAY})
+CT_ERES := $(strip ${CT_ERES})
+TARGET_MEM_ULC_3216 := $(strip ${TARGET_MEM_ULC_3216})
+CT_COMPRESS_CODE_SECTION := $(strip ${CT_COMPRESS_CODE_SECTION})
+COMPRESS_STATE := $(strip ${COMPRESS_STATE})
+UCTLS_SERVICE := $(strip ${UCTLS_SERVICE})
+VIDEO_PLAYER_SUPPORT := $(strip ${VIDEO_PLAYER_SUPPORT})
+SOUND_RECORDER_SUPPORT := $(strip ${SOUND_RECORDER_SUPPORT})
+VIDEO_RECORDER_SUPPORT := $(strip ${VIDEO_RECORDER_SUPPORT})
+CAM_MD_SUPPORT := $(strip ${CAM_MD_SUPPORT})
+MAGIC_AE_SUPPORT := $(strip ${MAGIC_AE_SUPPORT})
+MEDIA_RM_SUPPORT := $(strip ${MEDIA_RM_SUPPORT})
+MEDIA_MIDI_SUPPORT := $(strip ${MEDIA_MIDI_SUPPORT})
+CT_OPT := $(strip ${CT_OPT})
+WITHOUT_WERROR := $(strip ${WITHOUT_WERROR})
+EXPORT_BOARD_INFO := $(strip ${EXPORT_BOARD_INFO})
+#EXPORT_BOARD_FLAGS := $(strip ${EXPORT_BOARD_FLAGS})
+AMR_SUPPORT := $(strip ${AMR_SUPPORT})
+MEDIA_VOCVID_SUPPORT := $(strip ${MEDIA_VOCVID_SUPPORT})
+
+ifeq "$(filter ${CT_ASIC}, gallite 8808 8809)" ""
+$(error "Invalid CT_ASIC: ${CT_ASIC}")
+endif
+
+ifeq "${CT_ASIC}" "gallite"
+ifeq "$(filter ${CT_CHIP_DIE}, 8805 8806)" ""
+$(error "Invalid CT_CHIP_DIE: ${CT_CHIP_DIE}")
+endif
+ifeq "${CT_CHIP_DIE}" "8805"
+PM_MODEL        ?= rda1203_gallite
+XCV_MODEL       ?= xcv_rda6220_gallite
+endif
+ifeq "${CT_CHIP_DIE}" "8806"
+PM_MODEL        ?= rda1203_gallite_CT1129
+XCV_MODEL       ?= xcv_rda6220_gallite_CT1129
+endif
+endif #  gallite
+ifeq "${CT_ASIC}" "8808"
+PM_MODEL        ?= pmu_8808
+XCV_MODEL       ?= xcv_8808
+endif
+ifeq "${CT_ASIC}" "8809"
+PM_MODEL        ?= pmu_8809
+XCV_MODEL       ?= xcv_8809
+endif
+
+# Strip the whitespaces from the variable values
+PM_MODEL := $(strip ${PM_MODEL})
+XCV_MODEL := $(strip ${XCV_MODEL})
+
+ifeq "${PM_MODEL}" ""
+$(error "PM_MODEL is not set")
+endif
+ifeq "${XCV_MODEL}" ""
+$(error "XCV_MODEL is not set")
+endif
+
+SYS_MMI_CLK := $(strip ${SYS_MMI_CLK})
+SYS_VOC_CLK := $(strip ${SYS_VOC_CLK})
+
+# RAM size
+ifneq "$(filter ${CT_CHIP_PKG}, CT1129 CT8852D CT8853D CT8852M CT8853M CT8852A CT8853A CT8851A CT8851M)" ""
+RAM_SIZE_FLAG ?= __16Mbit__
+TARGET_EXPORT_FLAG += RAM_SIZE_16MBIT
+else
+ifneq "$(filter ${CT_CHIP_PKG}, CT1130 CT8852B CT8853B CT8851B)" ""
+RAM_SIZE_FLAG ?= __32Mbit__
+TARGET_EXPORT_FLAG += RAM_SIZE_32MBIT
+else
+ifneq "$(filter ${CT_CHIP_PKG}, CT1131 CT8852C CT8853C CT8851C)" ""
+RAM_SIZE_FLAG ?= __64Mbit__
+TARGET_EXPORT_FLAG += RAM_SIZE_64MBIT
+else
+ifneq "$(filter ${CT_CHIP_PKG}, CT1128)" ""
+RAM_SIZE_FLAG ?= 
+else
+$(error "Invalid CT_CHIP_PKG option: ${CT_CHIP_PKG}")
+endif
+endif
+endif
+endif
+
+# Strip the whitespaces from the variable values
+RAM_SIZE_FLAG := $(strip ${RAM_SIZE_FLAG})
+
+# SIM
+ifeq "${CT_ASIC}" "gallite"
+ifeq "${CT_CHIP_DIE}" "8805"
+ifeq "${DUALSIM_MODEL}" "threesimd"
+TARGET_EXPORT_FLAG    += TGT_THREE_SIM
+endif
+endif
+endif
+
+ifneq "${USER_SIM_ORDER}" ""
+TARGET_EXPORT_FLAG    += USER_SIM_SWAP
+endif
+
+# EBC clock
+ifeq "$(strip ${SYS_MEMD_EBC_CLK})" "__52MHz__" 
+TARGET_EXPORT_FLAG    += RAM_CLK_IS_52M
+endif
+ifeq "$(strip ${SYS_MEMD_EBC_CLK})" "__78MHz__" 
+TARGET_EXPORT_FLAG    += RAM_CLK_IS_78M
+endif
+ifeq "$(strip ${SYS_MEMD_EBC_CLK})" "__104MHz__" 
+TARGET_EXPORT_FLAG    += RAM_CLK_IS_104M
+endif
+ifeq "$(strip ${SYS_MEMD_EBC_CLK})" "__156MHz__" 
+TARGET_EXPORT_FLAG    += RAM_CLK_IS_156M
+endif
+ifeq "$(strip ${SYS_MEMD_EBC_CLK})" "__125MHz__" 
+TARGET_EXPORT_FLAG    += RAM_CLK_IS_125M
+endif
+ifeq "$(strip ${SYS_MEMD_EBC_CLK})" "__139MHz__" 
+TARGET_EXPORT_FLAG    += RAM_CLK_IS_139M
+endif
+
+# SPI flash clock
+ifeq "$(strip ${SYS_MEMD_FLSH_SPI_CLK})" "__52MHz__" 
+TARGET_EXPORT_FLAG    += SPI_FLSH_52M
+endif
+ifeq "$(strip ${SYS_MEMD_FLSH_SPI_CLK})" "__78MHz__" 
+TARGET_EXPORT_FLAG    += SPI_FLSH_78M
+endif
+ifeq "$(strip ${SYS_MEMD_FLSH_SPI_CLK})" "__104MHz__" 
+TARGET_EXPORT_FLAG    += SPI_FLSH_104M
+endif
+
+#MMI clock
+ifeq "$(strip ${SYS_MMI_CLK})" "__104MHz__" 
+TARGET_EXPORT_FLAG    += MMI_CLK_IS_104M
+else
+ifeq "$(strip ${SYS_MMI_CLK})" "__156MHz__" 
+TARGET_EXPORT_FLAG    += MMI_CLK_IS_156M
+else
+ifeq "$(strip ${SYS_MMI_CLK})" "__208MHz__" 
+TARGET_EXPORT_FLAG    += MMI_CLK_IS_208M
+else
+ifeq "$(strip ${SYS_MMI_CLK})" "__250MHz__" 
+TARGET_EXPORT_FLAG    += MMI_CLK_IS_250M
+else
+ifeq "$(strip ${SYS_MMI_CLK})" "__312MHz__" 
+TARGET_EXPORT_FLAG    += MMI_CLK_IS_312M
+else
+TARGET_EXPORT_FLAG    += MMI_CLK_IS_104M
+endif #__312MHz__
+endif #__250MHz__
+endif #__208MHz__
+endif #__156MHz__
+endif #__104MHz__
+
+#VOC clock
+ifeq "$(strip ${SYS_VOC_CLK})" "__78MHz__" 
+TARGET_EXPORT_FLAG    += VOC_CLK_IS_78M
+else
+ifeq "$(strip ${SYS_VOC_CLK})" "__156MHz__" 
+TARGET_EXPORT_FLAG    += VOC_CLK_IS_156M
+else
+ifeq "$(strip ${SYS_VOC_CLK})" "__208MHz__" 
+TARGET_EXPORT_FLAG    += VOC_CLK_IS_208M
+else
+ifeq "$(strip ${SYS_VOC_CLK})" "__250MHz__" 
+TARGET_EXPORT_FLAG    += VOC_CLK_IS_250M
+else
+ifeq "$(strip ${SYS_VOC_CLK})" "__312MHz__" 
+TARGET_EXPORT_FLAG    += VOC_CLK_IS_312M
+else
+TARGET_EXPORT_FLAG    += VOC_CLK_IS_78M
+endif #__312MHz__
+endif #__250MHz__
+endif #__208MHz__
+endif #__156MHz__
+endif #__78MHz__
+
+# SPI flash
+ifeq "$(strip ${FLSH_IF})" "spi" 
+TARGET_EXPORT_FLAG +=  __PRJ_WITH_SPIFLSH__
+ifneq "$(filter ${FLSH_MODEL},flsh_spi32x2m flsh_gd25q32x2)" ""
+TARGET_EXPORT_FLAG +=  __PRJ_WITH_2_32MBIT_SPIFLSH__
+else
+ifneq "$(filter ${FLSH_MODEL},flsh_spi64x2m flsh_gd25q64x2 flsh_spi64_32m)" ""
+TARGET_EXPORT_FLAG +=  __PRJ_WITH_2_64MBIT_SPIFLSH__
+else
+ifneq "$(filter ${FLSH_MODEL},flsh_spi128x2m flsh_spi128_32m flsh_spi128_64m)" ""
+TARGET_EXPORT_FLAG +=  __PRJ_WITH_2_128MBIT_SPIFLSH__
+endif # (${FLSH_MODEL},)
+endif # (${FLSH_MODEL},)
+endif # (${FLSH_MODEL},)
+
+ifneq "$(filter ${FLSH_MODEL},flsh_spi32m flsh_spi64m flsh_spi128m)" ""
+TARGET_EXPORT_FLAG +=  __SPIFLSH_SUPPORT_SOFTRESET__
+endif # (${FLSH_MODEL},)
+endif # (${FLSH_IF},)
+
+# SPI LCD
+ifeq "$(strip ${LCD_IF})" "slcd" 
+GLOBAL_EXPORT_FLAG += __PRJ_WITH_SPILCD__
+endif
+
+# SUB LCD
+ifneq "$(strip ${SUBLCD_MODEL})"  ""
+GLOBAL_EXPORT_FLAG += DUAL_LCD
+endif
+
+# SPI Camera
+ifeq "${CAMERA_IF}" "spi"
+ifeq "${CT_ASIC}" "gallite"
+ifeq "${CT_CHIP_DIE}" "8805"
+GLOBAL_EXPORT_FLAG += __PRJ_WITH_SPICAM__
+else # ! 8805
+ifeq "${CT_CHIP_DIE}" "8806"
+GLOBAL_EXPORT_FLAG += __PRJ_WITH_SPICAM__
+endif
+endif
+else # 8808 or later
+TARGET_EXPORT_FLAG += _SENSOR_SPI_MODE_SUPPORT_
+endif
+endif
+
+# 专用于gc6113串口摄像头(使用并口模拟串口)
+ifeq "${CAMERA_MODEL}" "gc6113"
+ifeq "${CAMERA_IF}" "parallel"
+TARGET_EXPORT_FLAG += _CAM_SPECIAL_GC6113_
+else # CAMERA_IF
+ifeq "${CT_ASIC}" "gallite"
+$(error "Unsupported ${CAMERA_MODEL} CAMERA_IF for CT_ASIC=${CT_ASIC}: ${CAMERA_IF}")
+endif
+endif # CAMERA_IF
+endif # CAMERA_MODEL
+
+# GPIO I2C
+ifeq "${I2C_MODEL}" "i2c_gpio"
+TARGET_EXPORT_FLAG  += I2C_BASED_ON_GPIO
+endif
+
+# BT
+ifneq "$(filter ${CT_CHIP_PKG}, CT8853A CT8853B CT8853C)" ""
+BT_UART_BREAK_INT_WAKEUP := 1
+endif
+
+# Analog TV
+ifneq "${ATV_MODEL}" ""
+ANALOG_TV_SUPPORT := 1
+
+MMI_EXPORT_FLAG += ANALOG_TV_SUPPORT
+GLOBAL_EXPORT_FLAG += ANALOG_TV_SUPPORT_MCP_LOCK
+
+ifneq ($(findstring rda5888e,${ATV_MODEL}),)
+TARGET_EXPORT_FLAG += RDAATV_CHIPVER_5888E
+else # !rda5888e
+ifneq ($(findstring rda5888he,${ATV_MODEL}),)
+TARGET_EXPORT_FLAG += RDAATV_CHIPVER_5888HE
+else # !rda5888he
+ifneq ($(findstring rda5888h,${ATV_MODEL}),)
+TARGET_EXPORT_FLAG += RDAATV_CHIPVER_5888H
+endif # ATV_MODEL "rda5888h"
+endif # ATV_MODEL "rda5888he"
+endif # ATV_MODEL "rda5888e"
+
+endif # (${ATV_MODEL},)
+
+ifneq "${WIFI_MODEL}" ""
+TARGET_EXPORT_FLAG += WIFI_SUPPORT
+endif
+
+# 32K_CLK / CLK_OUT selection
+ifneq "${USE_32K_CLOCK_PIN}" ""
+$(error "USE_32K_CLOCK_PIN has been obsoleted. Please use <MOD>_USE_32K_CLK_PIN instead.")
+endif # USE_32K_CLOCK_PIN
+
+# Code compression
+ifeq "$(strip ${CT_COMPRESS_CODE_SECTION})" "yes"
+# Compression state
+ifeq "$(strip ${COMPRESS_STATE})" "3264"
+GLOBAL_EXPORT_FLAG += COMPRESS_3264
+endif
+ifeq "$(strip ${COMPRESS_STATE})" "6464"
+GLOBAL_EXPORT_FLAG += COMPRESS_6464
+endif
+ifeq "$(strip ${COMPRESS_STATE})" "3232"
+GLOBAL_EXPORT_FLAG += COMPRESS_3232
+endif
+ifeq "$(strip ${COMPRESS_STATE})" "QVGA3232"
+GLOBAL_EXPORT_FLAG += COMPRESS_3232
+GLOBAL_EXPORT_FLAG += COMPRESS_QVGA3232
+endif
+endif
+
+# Video player
+ifeq "${VIDEO_PLAYER_SUPPORT}" "1"
+MMI_EXPORT_FLAG += VIDEO_PLAYER_SUPPORT
+endif
+
+# Video voc decoder
+ifeq "${MEDIA_VOCVID_SUPPORT}" "1"
+GLOBAL_EXPORT_FLAG  += MEDIA_VOCVID_SUPPORT
+endif
+
+# Sound recorder
+ifeq "${SOUND_RECORDER_SUPPORT}" "1"
+MMI_EXPORT_FLAG  += SOUND_RECORDER_SUPPORT
+endif
+
+# Video recorder
+ifeq "${VIDEO_RECORDER_SUPPORT}" "1"
+MMI_EXPORT_FLAG  += VIDEO_RECORDER_SUPPORT
+endif
+
+# Camera motion detection
+ifeq "${CAM_MD_SUPPORT}" "1"
+MMI_EXPORT_FLAG += CAM_MD_SUPPORT
+endif
+
+# Magic AE
+ifeq "${MAGIC_AE_SUPPORT}" "1"
+MMI_EXPORT_FLAG += MAGIC_AE_SUPPORT
+endif
+
+# MIDI format
+ifeq "${MEDIA_MIDI_SUPPORT}" "1"
+MMI_EXPORT_FLAG += MEDIA_MIDI_SUPPORT
+endif
+
+# RM format
+ifeq "${MEDIA_RM_SUPPORT}" "1"
+MMI_EXPORT_FLAG += MEDIA_RM_SUPPORT
+endif
+
+# H264 format
+ifeq "${MEDIA_H264_SUPPORT}" "1"
+MMI_EXPORT_FLAG += MEDIA_H264_SUPPORT
+endif
+
+# ULC configruation
+ifeq "$(strip ${TARGET_MEM_ULC_3216})" "YES"
+MMI_EXPORT_FLAG += MEM_ULC_3216
+endif
+
+# AMR support configration
+ifeq "$(strip ${AMR_SUPPORT})" "NO"
+GLOBAL_EXPORT_FLAG += AMR_NOT_SUPPORT
+endif
+
+# Include memory parameter definition file
+include ${SOFT_WORKDIR}/lib/memd.def
+

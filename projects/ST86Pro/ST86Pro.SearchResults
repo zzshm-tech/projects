@@ -1,0 +1,5 @@
+---- UART1_Init Matches (4 in 3 files) ----
+Sl_app_init.c (soft\app\s80\src):	//UART1_Init();                                   //初始化串口1
+Sl_app_init.c (soft\app\s80\src):				UART1_Init();                                   //初始化串口1
+UART.c (soft\app\s80\src):void UART1_Init(void)
+UART.h (soft\app\s80\src):void UART1_Init(void);

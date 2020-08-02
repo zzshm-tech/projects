@@ -1,0 +1,2017 @@
+Archive member included because of file (symbol)
+
+/cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+                              (SL_Entry)
+/cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o) (LoadSendQueue)
+/cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o) (GnssDataParse)
+/cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o) (InitTcpIp)
+/cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o) (Init_Led)
+/cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o) (LookForStr)
+/cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o) (CalendarToUnix)
+/cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o) (GetSysCfgSpace)
+/cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o) (ResetNextTime)
+/cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o) (init_stopwatch16)
+/cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o) (ResetHeatSw)
+/cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o) (GetTerStateDataSpace)
+/cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o) (UART1_Init)
+/cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(VersionNum.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o) (GetVerNum)
+/cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o) (AA)
+/cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o) (BuildCompletePacket)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunssfsi.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o) (__fixunssfsi)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunsdfsi.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o) (__fixunsdfsi)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_sf.o)
+                              /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunssfsi.o) (__subsf3)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_sf.o)
+                              /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunssfsi.o) (__gesf2)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lt_sf.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o) (__ltsf2)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_si.o)
+                              /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunssfsi.o) (__fixsfsi)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_df.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o) (__extendsfdf2)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_sf.o)
+                              /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_sf.o) (__thenan_sf)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o) (__subdf3)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_mul_df.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o) (__muldf3)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_div_df.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o) (__divdf3)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_eq_df.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o) (__eqdf2)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_gt_df.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o) (__gtdf2)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_df.o)
+                              /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunsdfsi.o) (__gedf2)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_si_to_df.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o) (__floatsidf)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_si.o)
+                              /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunsdfsi.o) (__fixdfsi)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_df.o)
+                              /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_df.o) (__make_dp)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_sf.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o) (__truncdfsf2)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_df.o)
+                              /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o) (__thenan_df)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_usi_to_df.o)
+                              /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o) (__floatunsidf)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lshrdi3.o)
+                              /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o) (__lshrdi3)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ashldi3.o)
+                              /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o) (__ashldi3)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ucmpdi2.o)
+                              /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o) (__ucmpdi2)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clzsi2.o)
+                              /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_si_to_df.o) (__clzsi2)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_sf.o)
+                              /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_sf.o) (__pack_f)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_sf.o)
+                              /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_sf.o) (__unpack_f)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_sf.o)
+                              /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_sf.o) (__fpcmp_parts_f)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_sf.o)
+                              /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_sf.o) (__make_fp)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_df.o)
+                              /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o) (__pack_d)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_df.o)
+                              /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o) (__unpack_d)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_df.o)
+                              /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_eq_df.o) (__fpcmp_parts_d)
+/crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clz.o)
+                              /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clzsi2.o) (__clz_tab)
+
+Allocating common symbols
+Common symbol       size              file
+
+SysAppEnterTask     0x4               /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+pUpgradeST86File    0x4               /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+
+Discarded input sections
+
+ .rom_entries_cached
+                0x0000000000000000      0x148 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/lib/mem_bridge_rom_CHIP.elf
+ .boot_rom_version_number
+                0x0000000000000000        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/lib/mem_bridge_rom_CHIP.elf
+ .internal_rom.crc
+                0x0000000000000000        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/lib/mem_bridge_rom_CHIP.elf
+ .text          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+ .data          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+ .bss           0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+ .pdr           0x0000000000000000       0x40 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+ .text          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+ .data          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+ .bss           0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+ .reginfo       0x0000000000000000       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+ .pdr           0x0000000000000000      0x140 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+ .text.ClearBindData
+                0x0000000000000000       0x2c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+ .text          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .data          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .bss           0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .reginfo       0x0000000000000000       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .pdr           0x0000000000000000       0xe0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .text          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .data          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .bss           0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .reginfo       0x0000000000000000       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .pdr           0x0000000000000000      0x440 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .text.SL_AppAnswer
+                0x0000000000000000       0x44 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .text.SL_AppHangUp
+                0x0000000000000000       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .text          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .data          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .bss           0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .reginfo       0x0000000000000000       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .pdr           0x0000000000000000       0xc0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .text          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .data          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .bss           0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .reginfo       0x0000000000000000       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .pdr           0x0000000000000000      0x280 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .text.DecToHex
+                0x0000000000000000       0x20 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .text.HexToDec
+                0x0000000000000000       0x20 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .text.Int16ToStr
+                0x0000000000000000       0xc8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .text.AsciiToData
+                0x0000000000000000       0x64 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .text.CheckSum16B
+                0x0000000000000000       0x20 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .text          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .data          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .bss           0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .reginfo       0x0000000000000000       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .pdr           0x0000000000000000      0x160 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .text.ReadSleepStatus
+                0x0000000000000000        0xc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .text.SetSysTime
+                0x0000000000000000       0x28 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .text          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+ .data          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+ .bss           0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+ .reginfo       0x0000000000000000       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+ .pdr           0x0000000000000000       0xc0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+ .text          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .data          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .bss           0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .reginfo       0x0000000000000000       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .pdr           0x0000000000000000       0xc0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .text          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+ .data          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+ .bss           0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+ .reginfo       0x0000000000000000       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+ .pdr           0x0000000000000000       0xa0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+ .text.init_stopwatch32
+                0x0000000000000000        0xc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+ .text.read_stopwatch32_value
+                0x0000000000000000       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+ .text          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ .data          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ .bss           0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ .reginfo       0x0000000000000000       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ .pdr           0x0000000000000000       0x40 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ .text          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .data          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .bss           0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .reginfo       0x0000000000000000       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .pdr           0x0000000000000000      0x220 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .text.SendTerSleepCmd
+                0x0000000000000000       0x88 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .data.GetStatus
+                0x0000000000000000        0xc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .text          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .data          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .bss           0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .reginfo       0x0000000000000000       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .pdr           0x0000000000000000      0x120 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .text          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(VersionNum.o)
+ .data          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(VersionNum.o)
+ .bss           0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(VersionNum.o)
+ .reginfo       0x0000000000000000       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(VersionNum.o)
+ .pdr           0x0000000000000000       0x20 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(VersionNum.o)
+ .text          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app.o)
+ .data          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app.o)
+ .bss           0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app.o)
+ .reginfo       0x0000000000000000       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app.o)
+ .text          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+ .data          0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+ .bss           0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+ .reginfo       0x0000000000000000       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+ .pdr           0x0000000000000000       0x20 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunssfsi.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunssfsi.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunssfsi.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunssfsi.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunsdfsi.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunsdfsi.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunsdfsi.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunsdfsi.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_sf.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_sf.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_sf.o)
+ .pdr           0x0000000000000000       0x60 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_sf.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_sf.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_sf.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_sf.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_sf.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lt_sf.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lt_sf.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lt_sf.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lt_sf.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_si.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_si.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_si.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_si.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_df.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_df.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_df.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_df.o)
+ .text          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_sf.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_sf.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_sf.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_sf.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o)
+ .pdr           0x0000000000000000       0x60 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_mul_df.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_mul_df.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_mul_df.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_mul_df.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_div_df.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_div_df.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_div_df.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_div_df.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_eq_df.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_eq_df.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_eq_df.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_eq_df.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_gt_df.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_gt_df.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_gt_df.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_gt_df.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_df.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_df.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_df.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_df.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_si_to_df.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_si_to_df.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_si_to_df.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_si_to_df.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_si.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_si.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_si.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_si.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_df.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_df.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_df.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_df.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_sf.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_sf.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_sf.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_sf.o)
+ .text          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_df.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_df.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_df.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_df.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_usi_to_df.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_usi_to_df.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_usi_to_df.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_usi_to_df.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lshrdi3.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lshrdi3.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lshrdi3.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lshrdi3.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ashldi3.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ashldi3.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ashldi3.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ashldi3.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ucmpdi2.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ucmpdi2.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ucmpdi2.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ucmpdi2.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clzsi2.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clzsi2.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clzsi2.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clzsi2.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_sf.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_sf.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_sf.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_sf.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_sf.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_sf.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_sf.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_sf.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_sf.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_sf.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_sf.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_sf.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_sf.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_sf.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_sf.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_sf.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_df.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_df.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_df.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_df.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_df.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_df.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_df.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_df.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_df.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_df.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_df.o)
+ .pdr           0x0000000000000000       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_df.o)
+ .text          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clz.o)
+ .data          0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clz.o)
+ .bss           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clz.o)
+ .reginfo       0x0000000000000000       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clz.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /cygdrive/c/projects/ST86QDLOV0616CALL/soft/lib/mem_bridge_rom_CHIP.elf
+                0xffffffff82500000                . = 0xffffffff82500000
+                0xffffffff82500000                _ram_start = .
+                0xffffffff82500000                _ram_functab_start = 0xffffffff82500000
+
+.functab        0xffffffff82500000      0x520
+ *(.functab)
+ .functab       0xffffffff82500000      0x518 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app.o)
+                0xffffffff82500000                AA
+                0xffffffff82500520                . = ALIGN (0x10)
+ *fill*         0xffffffff82500518        0x8 00
+                0xffffffff82500520                _ram_functab_end = .
+                0x0000000000000520                _ram_functab_size = (_ram_functab_end - _ram_functab_start)
+                0x0000000000000001                ASSERT ((0xffffffff82500800 > ABSOLUTE (_ram_functab_end)), Functab on External RAM overflow !)
+                0xffffffff82500800                . = 0xffffffff82500800
+
+.rotext         0xffffffff82500800      0x2d0
+ *(.app_entry)
+ .app_entry     0xffffffff82500800      0x2c4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+                0xffffffff82500801                SL_Entry
+ *(.rotext)
+                0xffffffff82500ad0                . = ALIGN (0x10)
+ *fill*         0xffffffff82500ac4        0xc 00
+                0xffffffff82500ae0                . = ALIGN (0x20)
+
+.rodata         0xffffffff82500ae0      0x140
+ *(.rodata)
+ .rodata        0xffffffff82500ae0       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_sf.o)
+                0xffffffff82500ae0                __thenan_sf
+ .rodata        0xffffffff82500af0       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_df.o)
+                0xffffffff82500af0                __thenan_df
+ .rodata        0xffffffff82500b08      0x100 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clz.o)
+                0xffffffff82500b08                __clz_tab
+                0xffffffff82500c20                . = ALIGN (0x20)
+ *fill*         0xffffffff82500c08       0x18 00
+
+.ram            0xffffffff82500c20        0x0
+                0xffffffff82500c20                _ram_special_cached_start = .
+                0xffffffff82500c20                _ram_txt_start = .
+ *(.ram)
+                0xffffffff82500c20                . = ALIGN (0x10)
+                0xffffffff82500c20                _ram_special_cached_end = .
+                0x0000000000000000                _ram_special_cached_size = (_ram_special_cached_end - _ram_special_cached_start)
+
+.ramtext        0xffffffff82500c20     0x81c0
+                0xffffffff82500c20                _ram_cached_txt_start = .
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.SL_AppSendMsg
+                0xffffffff82500c20       0x40 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+                0xffffffff82500c21                SL_AppSendMsg
+ .text.GetSendQueueSpace
+                0xffffffff82500c60        0xc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+                0xffffffff82500c61                GetSendQueueSpace
+ .text.WriteSendQueue
+                0xffffffff82500c6c       0xfc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+                0xffffffff82500c6d                WriteSendQueue
+ .text.ClearSendQueue
+                0xffffffff82500d68       0x38 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+                0xffffffff82500d69                ClearSendQueue
+ .text.WriteCmdDataBuf
+                0xffffffff82500da0       0x40 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+                0xffffffff82500da1                WriteCmdDataBuf
+ .text.ReadCmdDataBuf
+                0xffffffff82500de0       0x30 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+                0xffffffff82500de1                ReadCmdDataBuf
+ .text.ClearCmdData
+                0xffffffff82500e10       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+                0xffffffff82500e11                ClearCmdData
+ .text.LoadSendQueue
+                0xffffffff82500e20       0xa8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+                0xffffffff82500e21                LoadSendQueue
+ .text.SaveSendQueue
+                0xffffffff82500ec8       0xac /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+                0xffffffff82500ec9                SaveSendQueue
+ .text.ReadSendQueue
+                0xffffffff82500f74       0xdc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+                0xffffffff82500f75                ReadSendQueue
+ .text.GetComma
+                0xffffffff82501050       0x34 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+                0xffffffff82501051                GetComma
+ *fill*         0xffffffff82501084        0x4 00000000
+ .text.StrToDouble
+                0xffffffff82501088      0x180 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+                0xffffffff82501089                StrToDouble
+ .text.GetDataStr
+                0xffffffff82501208       0x68 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+                0xffffffff82501209                GetDataStr
+ .text.GetGnssDataSpace
+                0xffffffff82501270        0xc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+                0xffffffff82501271                GetGnssDataSpace
+ .text.GnssDataVerfy
+                0xffffffff8250127c       0x58 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ *fill*         0xffffffff825012d4        0x4 00000000
+ .text.GnssDataFilter
+                0xffffffff825012d8       0x78 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .text.GnssDataParse
+                0xffffffff82501350      0x6d8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+                0xffffffff82501351                GnssDataParse
+ .text.GetTcpIpSocketSpce
+                0xffffffff82501a28        0xc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501a29                GetTcpIpSocketSpce
+ .text.AppGprsNetActRsp
+                0xffffffff82501a34       0x54 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501a35                AppGprsNetActRsp
+ .text.AppGprsNetDeactRsp
+                0xffffffff82501a88       0x40 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501a89                AppGprsNetDeactRsp
+ .text.AppTcpipConnRsp
+                0xffffffff82501ac8       0x1c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501ac9                AppTcpipConnRsp
+ .text.AppTcpipSendRsp
+                0xffffffff82501ae4       0x4c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501ae5                AppTcpipSendRsp
+ .text.AppTcpipCloseRsp
+                0xffffffff82501b30       0x50 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501b31                AppTcpipCloseRsp
+ .text.InitTcpIp
+                0xffffffff82501b80       0x60 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501b81                InitTcpIp
+ .text.AppFtpOpenCB
+                0xffffffff82501be0       0x14 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501be1                AppFtpOpenCB
+ .text.AppFtpDownloadCB
+                0xffffffff82501bf4       0x5c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501bf5                AppFtpDownloadCB
+ .text.AppFtpOpen
+                0xffffffff82501c50       0x64 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .text.AppSendTcpIpSocket
+                0xffffffff82501cb4       0x44 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501cb5                AppSendTcpIpSocket
+ .text.ReadSendState
+                0xffffffff82501cf8       0x28 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501cf9                ReadSendState
+ .text.AppGetICCId
+                0xffffffff82501d20       0x4c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501d21                AppGetICCId
+ .text.AppGetHostIpByNameCb
+                0xffffffff82501d6c       0x7c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501d6d                AppGetHostIpByNameCb
+ .text.SL_AppCallDialCb
+                0xffffffff82501de8       0x3c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501de9                SL_AppCallDialCb
+ .text.SL_AppCallHangupCb
+                0xffffffff82501e24       0x3c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501e25                SL_AppCallHangupCb
+ .text.SL_AppCallRingCb
+                0xffffffff82501e60       0x60 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501e61                SL_AppCallRingCb
+ .text.SL_AppCallRleaseCb
+                0xffffffff82501ec0       0x3c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501ec1                SL_AppCallRleaseCb
+ .text.SL_AppCallAcceptCb
+                0xffffffff82501efc       0x3c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501efd                SL_AppCallAcceptCb
+ .text.SL_AppInitCall
+                0xffffffff82501f38       0x64 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501f39                SL_AppInitCall
+ .text.SL_AppDialCall
+                0xffffffff82501f9c       0x2c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501f9d                SL_AppDialCall
+ .text.AppSmsFullCb
+                0xffffffff82501fc8       0x1c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501fc9                AppSmsFullCb
+ .text.InitSms  0xffffffff82501fe4       0x4c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82501fe5                InitSms
+ .text.ProcessSMSRecv
+                0xffffffff82502030      0x244 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82502031                ProcessSMSRecv
+ .text.AppSmsRcvCb
+                0xffffffff82502274       0x90 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82502275                AppSmsRcvCb
+ .text.AppTcpipRcvRsp
+                0xffffffff82502304       0x6c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82502305                AppTcpipRcvRsp
+ .text.ProcessCmd
+                0xffffffff82502370      0x8d0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82502371                ProcessCmd
+ .text.ProcessGprsRecv
+                0xffffffff82502c40      0x570 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82502c41                ProcessGprsRecv
+ .text.SaveIpAddrBack
+                0xffffffff825031b0       0x38 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff825031b1                SaveIpAddrBack
+ .text.ProcessSocketClient
+                0xffffffff825031e8      0x8f4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff825031e9                ProcessSocketClient
+ .text.ReadIpAddrBack
+                0xffffffff82503adc       0x38 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82503add                ReadIpAddrBack
+ .text.AppFtpCloseCB
+                0xffffffff82503b14       0x84 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                0xffffffff82503b15                AppFtpCloseCB
+ .text.Init_Led
+                0xffffffff82503b98       0x48 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+                0xffffffff82503b99                Init_Led
+ .text.GnssLedOn
+                0xffffffff82503be0       0x1c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+                0xffffffff82503be1                GnssLedOn
+ .text.GnssLedOff
+                0xffffffff82503bfc       0x1c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+                0xffffffff82503bfd                GnssLedOff
+ .text.GsmLedOn
+                0xffffffff82503c18       0x1c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .text.ProcessGnssLed
+                0xffffffff82503c34      0x100 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+                0xffffffff82503c35                ProcessGnssLed
+ .text.ProcessGsmLed
+                0xffffffff82503d34       0xd8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+                0xffffffff82503d35                ProcessGsmLed
+ .text.LookForStr
+                0xffffffff82503e0c       0x4c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+                0xffffffff82503e0d                LookForStr
+ .text.CalcCrc8
+                0xffffffff82503e58       0x54 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+                0xffffffff82503e59                CalcCrc8
+ .text.BccVerify
+                0xffffffff82503eac       0x1c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+                0xffffffff82503ead                BccVerify
+ .text.VerfySum
+                0xffffffff82503ec8       0x24 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+                0xffffffff82503ec9                VerfySum
+ .text.CheckSum16
+                0xffffffff82503eec       0x20 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+                0xffffffff82503eed                CheckSum16
+ .text.AsciiToHex
+                0xffffffff82503f0c       0x68 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+                0xffffffff82503f0d                AsciiToHex
+ *fill*         0xffffffff82503f74        0x4 00000000
+ .text.Rad      0xffffffff82503f78       0x30 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+                0xffffffff82503f79                Rad
+ .text.PowTow   0xffffffff82503fa8       0x14 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+                0xffffffff82503fa9                PowTow
+ *fill*         0xffffffff82503fbc        0x4 00000000
+ .text.ComputeDistance
+                0xffffffff82503fc0      0x128 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+                0xffffffff82503fc1                ComputeDistance
+ .text.CharToStr
+                0xffffffff825040e8       0x28 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+                0xffffffff825040e9                CharToStr
+ .text.UInt32ToStr
+                0xffffffff82504110       0x54 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+                0xffffffff82504111                UInt32ToStr
+ .text.CheckServerAddr
+                0xffffffff82504164      0x1c4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+                0xffffffff82504165                CheckServerAddr
+ .text.CharToStrB
+                0xffffffff82504328       0x5c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .text.IpAddrToStr
+                0xffffffff82504384       0xf0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+                0xffffffff82504385                IpAddrToStr
+ .text.StrCompare
+                0xffffffff82504474       0x2c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+                0xffffffff82504475                StrCompare
+ .text.GetWarningValue
+                0xffffffff825044a0        0xc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+                0xffffffff825044a1                GetWarningValue
+ .text.WriteDeviceAlram
+                0xffffffff825044ac       0x2c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+                0xffffffff825044ad                WriteDeviceAlram
+ .text.UnixToCalendar
+                0xffffffff825044d8      0x14c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+                0xffffffff825044d9                UnixToCalendar
+ .text.CalendarToUnix
+                0xffffffff82504624      0x128 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+                0xffffffff82504625                CalendarToUnix
+ .text.GetSysTimeSpace
+                0xffffffff8250474c        0xc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+                0xffffffff8250474d                GetSysTimeSpace
+ .text.GetSetTimeSpace
+                0xffffffff82504758        0xc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+                0xffffffff82504759                GetSetTimeSpace
+ .text.WriteSleepStatus
+                0xffffffff82504764        0xc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+                0xffffffff82504765                WriteSleepStatus
+ .text.ProcessRtc
+                0xffffffff82504770      0x1fc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+                0xffffffff82504771                ProcessRtc
+ .text.ProcessSysSleep
+                0xffffffff8250496c       0xb8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+                0xffffffff8250496d                ProcessSysSleep
+ .text.GetSysCfgSpace
+                0xffffffff82504a24        0xc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+                0xffffffff82504a25                GetSysCfgSpace
+ .text.FileCheckOrGreate
+                0xffffffff82504a30       0xc4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+                0xffffffff82504a31                FileCheckOrGreate
+ .text.ReadSysCfg
+                0xffffffff82504af4       0x38 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+                0xffffffff82504af5                ReadSysCfg
+ .text.SaveSysCfg
+                0xffffffff82504b2c       0x38 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+                0xffffffff82504b2d                SaveSysCfg
+ .text.InitSysTimer
+                0xffffffff82504b64       0x58 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+                0xffffffff82504b65                InitSysTimer
+ .text.InitSysConfig
+                0xffffffff82504bbc       0xc8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+                0xffffffff82504bbd                InitSysConfig
+ .text.ResetNextTime
+                0xffffffff82504c84       0x14 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+                0xffffffff82504c85                ResetNextTime
+ .text.GetSysRunDataSpace
+                0xffffffff82504c98        0xc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+                0xffffffff82504c99                GetSysRunDataSpace
+ .text.SysProcess
+                0xffffffff82504ca4      0x190 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+                0xffffffff82504ca5                SysProcess
+ .text.ReadSysRunData
+                0xffffffff82504e34       0xe0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+                0xffffffff82504e35                ReadSysRunData
+ .text.SaveSysRunData
+                0xffffffff82504f14       0xf4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+                0xffffffff82504f15                SaveSysRunData
+ .text.ProcessRunData
+                0xffffffff82505008      0x108 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+                0xffffffff82505009                ProcessRunData
+ .text.init_stopwatch16
+                0xffffffff82505110        0xc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+                0xffffffff82505111                init_stopwatch16
+ .text.read_stopwatch16_value
+                0xffffffff8250511c       0x14 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+                0xffffffff8250511d                read_stopwatch16_value
+ .text.TickAdd  0xffffffff82505130       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+                0xffffffff82505131                TickAdd
+ .text.ResetHeatSw
+                0xffffffff82505140       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+                0xffffffff82505141                ResetHeatSw
+ .text.ProcessTcpIpUpLoad
+                0xffffffff82505158      0x150 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+                0xffffffff82505159                ProcessTcpIpUpLoad
+ .text.GetCanDataSpace
+                0xffffffff825052a8        0xc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+                0xffffffff825052a9                GetCanDataSpace
+ .text.GetTerStateDataSpace
+                0xffffffff825052b4        0xc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+                0xffffffff825052b5                GetTerStateDataSpace
+ .text.GetTerTimeSpace
+                0xffffffff825052c0        0xc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+                0xffffffff825052c1                GetTerTimeSpace
+ .text.GetLockCarSpace
+                0xffffffff825052cc        0xc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+                0xffffffff825052cd                GetLockCarSpace
+ .text.GetUpgradeDataSpace
+                0xffffffff825052d8        0xc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+                0xffffffff825052d9                GetUpgradeDataSpace
+ .text.ReadRunMode
+                0xffffffff825052e4        0xc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+                0xffffffff825052e5                ReadRunMode
+ .text.WriteRunMode
+                0xffffffff825052f0       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+                0xffffffff825052f1                WriteRunMode
+ .text.GetBinFile
+                0xffffffff82505308       0x64 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+                0xffffffff82505309                GetBinFile
+ .text.SetTerCanProNum
+                0xffffffff8250536c       0xc8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+                0xffffffff8250536d                SetTerCanProNum
+ .text.SendVerifyTimeCmd
+                0xffffffff82505434       0x70 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+                0xffffffff82505435                SendVerifyTimeCmd
+ .text.SendGetStatusCmd
+                0xffffffff825054a4       0x80 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+                0xffffffff825054a5                SendGetStatusCmd
+ *fill*         0xffffffff82505524        0x4 00000000
+ .text.SendTerminalInfo
+                0xffffffff82505528      0x838 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+                0xffffffff82505529                SendTerminalInfo
+ .text.ReadAccState
+                0xffffffff82505d60       0x2c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+                0xffffffff82505d61                ReadAccState
+ .text.T.56     0xffffffff82505d8c      0x290 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .text.ProTermRecvData
+                0xffffffff8250601c      0x59c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+                0xffffffff8250601d                ProTermRecvData
+ .text.ProTerminalData
+                0xffffffff825065b8      0xaa8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+                0xffffffff825065b9                ProTerminalData
+ .text.UART1_Init
+                0xffffffff82507060       0x40 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+                0xffffffff82507061                UART1_Init
+ .text.UART2_Init
+                0xffffffff825070a0       0x44 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+                0xffffffff825070a1                UART2_Init
+ .text.clear_com
+                0xffffffff825070e4       0x48 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+                0xffffffff825070e5                clear_com
+ .text.new_data_in_com
+                0xffffffff8250712c       0x34 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+                0xffffffff8250712d                new_data_in_com
+ .text.datasize_in_com
+                0xffffffff82507160       0x28 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+                0xffffffff82507161                datasize_in_com
+ .text.read_com_buf
+                0xffffffff82507188       0xac /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+                0xffffffff82507189                read_com_buf
+ .text.UART1_Recv_Data
+                0xffffffff82507234       0x8c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+                0xffffffff82507235                UART1_Recv_Data
+ .text.UART2_Recv_Data
+                0xffffffff825072c0       0x8c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+                0xffffffff825072c1                UART2_Recv_Data
+ .text.ReadComPkt
+                0xffffffff8250734c       0xb4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+                0xffffffff8250734d                ReadComPkt
+ .text.GetVerNum
+                0xffffffff82507400        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(VersionNum.o)
+                0xffffffff82507401                GetVerNum
+ *fill*         0xffffffff82507404        0x4 00000000
+ .text.BuildCompletePacket
+                0xffffffff82507408      0x890 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+                0xffffffff82507409                BuildCompletePacket
+ .text          0xffffffff82507c98       0x3c /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunssfsi.o)
+                0xffffffff82507c99                __fixunssfsi
+ *fill*         0xffffffff82507cd4        0x4 00000000
+ .text          0xffffffff82507cd8       0x50 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunsdfsi.o)
+                0xffffffff82507cd9                __fixunsdfsi
+ .text          0xffffffff82507d28      0x1c0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_sf.o)
+                0xffffffff82507e69                __subsf3
+                0xffffffff82507ead                __addsf3
+ .text          0xffffffff82507ee8       0x44 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_sf.o)
+                0xffffffff82507ee9                __gesf2
+ .text          0xffffffff82507f2c       0x44 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lt_sf.o)
+                0xffffffff82507f2d                __ltsf2
+ .text          0xffffffff82507f70       0x58 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_si.o)
+                0xffffffff82507f71                __fixsfsi
+ .text          0xffffffff82507fc8       0x2c /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_df.o)
+                0xffffffff82507fc9                __extendsfdf2
+ .text          0xffffffff82507ff4      0x2f0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o)
+                0xffffffff8250825d                __subdf3
+                0xffffffff825082a5                __adddf3
+ *fill*         0xffffffff825082e4        0x4 00000000
+ .text          0xffffffff825082e8      0x1b8 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_mul_df.o)
+                0xffffffff825082e9                __muldf3
+ .text          0xffffffff825084a0      0x138 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_div_df.o)
+                0xffffffff825084a1                __divdf3
+ .text          0xffffffff825085d8       0x48 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_eq_df.o)
+                0xffffffff825085d9                __eqdf2
+ .text          0xffffffff82508620       0x48 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_gt_df.o)
+                0xffffffff82508621                __gtdf2
+ .text          0xffffffff82508668       0x48 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_df.o)
+                0xffffffff82508669                __gedf2
+ .text          0xffffffff825086b0       0x78 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_si_to_df.o)
+                0xffffffff825086b1                __floatsidf
+ .text          0xffffffff82508728       0x64 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_si.o)
+                0xffffffff82508729                __fixdfsi
+ .text          0xffffffff8250878c       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_df.o)
+                0xffffffff8250878d                __make_dp
+ .text          0xffffffff825087ac       0x3c /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_sf.o)
+                0xffffffff825087ad                __truncdfsf2
+ .text          0xffffffff825087e8       0x98 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_usi_to_df.o)
+                0xffffffff825087e9                __floatunsidf
+ .text          0xffffffff82508880       0x3c /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lshrdi3.o)
+                0xffffffff82508881                __lshrdi3
+ .text          0xffffffff825088bc       0x3c /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ashldi3.o)
+                0xffffffff825088bd                __ashldi3
+ .text          0xffffffff825088f8       0x28 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ucmpdi2.o)
+                0xffffffff825088f9                __ucmpdi2
+ .text          0xffffffff82508920       0x3c /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clzsi2.o)
+                0xffffffff82508921                __clzsi2
+ .text          0xffffffff8250895c       0xc4 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_sf.o)
+                0xffffffff8250895d                __pack_f
+ .text          0xffffffff82508a20       0x7c /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_sf.o)
+                0xffffffff82508a21                __unpack_f
+ .text          0xffffffff82508a9c       0x64 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_sf.o)
+                0xffffffff82508a9d                __fpcmp_parts_f
+ .text          0xffffffff82508b00       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_sf.o)
+                0xffffffff82508b01                __make_fp
+ .text          0xffffffff82508b18      0x1a4 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_df.o)
+                0xffffffff82508b19                __pack_d
+ .text          0xffffffff82508cbc       0xac /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_df.o)
+                0xffffffff82508cbd                __unpack_d
+ .text          0xffffffff82508d68       0x78 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_df.o)
+                0xffffffff82508d69                __fpcmp_parts_d
+                0xffffffff82508de0                . = ALIGN (0x10)
+                0xffffffff82508de0                _ram_cached_txt_end = .
+                0x00000000000081c0                ram_cached_txt_size = (_ram_cached_txt_end - _ram_cached_txt_start)
+                0xffffffff82508de0                _ram_txt_end = .
+                0xffffffffa2508de0                . = (. + 0x20000000)
+
+.ucdata         0xffffffffa2508de0        0x0
+                0xffffffffa2508de0                _ram_uncached_data_start = .
+ *(.ucdata)
+ *(*.globalvars.uc)
+                0xffffffffa2508de0                . = ALIGN (0x10)
+                0xffffffffa2508de0                _ram_uncached_data_end = .
+                0x0000000000000000                _ram_uncached_data_size = (_ram_uncached_data_end - _ram_uncached_data_start)
+                0xffffffff82508de0                . = (. - 0x20000000)
+
+.data           0xffffffff82508de0      0xef0
+                0xffffffff82508de0                _ram_cached_data_start = .
+ *(.rdata)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0xffffffff82508de0      0x141 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+                                        0x144 (size before relaxing)
+ *fill*         0xffffffff82508f21        0x3 00
+ .rodata.str1.4
+                0xffffffff82508f24       0xf4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+ .rodata.str1.4
+                0xffffffff82509018       0x1e /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+                                         0x20 (size before relaxing)
+ *fill*         0xffffffff82509036        0x2 00
+ .rodata.str1.4
+                0xffffffff82509038      0x941 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                                        0x948 (size before relaxing)
+ *fill*         0xffffffff82509979        0x3 00
+ .rodata.str1.4
+                0xffffffff8250997c       0x4d /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+                                         0x50 (size before relaxing)
+ *fill*         0xffffffff825099c9        0x3 00
+ .rodata.str1.4
+                0xffffffff825099cc       0x76 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+                                         0x8c (size before relaxing)
+ *fill*         0xffffffff82509a42        0x2 00
+ .rodata.str1.4
+                0xffffffff82509a44       0x7e /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+                                         0x80 (size before relaxing)
+ *fill*         0xffffffff82509ac2        0x2 00
+ .rodata.str1.4
+                0xffffffff82509ac4       0x8b /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+                                         0x8c (size before relaxing)
+ *fill*         0xffffffff82509b4f        0x1 00
+ .rodata.str1.4
+                0xffffffff82509b50      0x141 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+                                        0x1e8 (size before relaxing)
+ *fill*         0xffffffff82509c91        0x3 00
+ .rodata.str1.4
+                0xffffffff82509c94       0x1c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+ *(.rodata1)
+ *(.ctors)
+                0xffffffff82509cb0                . = ALIGN (0x10)
+ *(*.globalvars.c *.globalvars.c.*)
+ *(EXCLUDE_FILE(*.oo gcj_*.o) .data)
+ *(EXCLUDE_FILE(*.oo gcj_*.o) .data.*)
+ .data.GnssStatusBack
+                0xffffffff82509cb0        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ *fill*         0xffffffff82509cb1        0x1 00
+ .data.CyclOff.4257
+                0xffffffff82509cb2        0x2 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .data.CyclOn.4256
+                0xffffffff82509cb4        0x2 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ *fill*         0xffffffff82509cb6        0x2 00
+ .data.HeartBeat
+                0xffffffff82509cb8        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ .data.rear_com2_recv_buf
+                0xffffffff82509cbc        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .data.front_com2_recv_buf
+                0xffffffff82509cc0        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .data.rear_com1_recv_buf
+                0xffffffff82509cc4        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .data.front_com1_recv_buf
+                0xffffffff82509cc8        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ *(EXCLUDE_FILE(*.oo gcj_*.o) .gnu.linkonce.d.*)
+ *(.data1)
+                0xffffffff82511cc0                _gp = (ALIGN (0x10) + 0x7ff0)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+ *(.lit8)
+ *(.lit4)
+                0xffffffff82509ccc                . = ALIGN (0x4)
+                0xffffffff82509cd0                . = ALIGN (0x10)
+ *fill*         0xffffffff82509ccc        0x4 00
+                0xffffffff82509cd0                _ram_cached_data_end = .
+                0x0000000000000ef0                _ram_cached_data_size = (_ram_cached_data_end - _ram_cached_data_start)
+                0xffffffff82509cd0                _ram_end = .
+                0x0000000000009cd0                _ram_size = (_ram_end - _ram_start)
+
+.internal_rom   0xffffffff82509d00     0x4a30
+ .internal_rom  0xffffffff82509d00     0x4a30 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/lib/mem_bridge_rom_CHIP.elf
+                0xffffffff82509d00                __xcpu_start
+                0xffffffff82509e80                _boot_IrqHandler
+                0xffffffff82509fc0                boot_HstMonitorX
+                0xffffffff8250a020                boot_DbgExlTrigFunction0
+                0xffffffff8250a17c                monitor_entry
+                0xffffffff8250a180                initial_stack_top_var
+                0xffffffff8250a184                boot_FlushCache
+                0xffffffff8250a1a8                boot_DisableInterrupt
+                0xffffffff8250a201                boot_MonitorDoMonitoring
+                0xffffffff8250a341                boot_Monitor
+                0xffffffff8250a381                boot_UartMonitorGetBaudRate
+                0xffffffff8250a395                boot_UartMonitorSend
+                0xffffffff8250a3f9                boot_UartMonitorGet
+                0xffffffff8250a45d                boot_UartMonitorOpen
+                0xffffffff8250a495                boot_UartMonitorClose
+                0xffffffff8250a4a5                boot_UartMonitorAck
+                0xffffffff8250a531                boot_UartMonitorTimeOut
+                0xffffffff8250a559                boot_UartMonitorWriteProcess
+                0xffffffff8250a6a1                boot_UartMonitorRpcProcess
+                0xffffffff8250a7e9                boot_UartMonitorReadProcess
+                0xffffffff8250a9a9                boot_UartMonitorExitProcess
+                0xffffffff8250a9fd                boot_UartMonitorProcess
+                0xffffffff8250aaa5                boot_UartMonitor
+                0xffffffff8250acfc                g_BootHostUsbFixPtr
+                0xffffffff8250ad01                boot_IrqDispatch
+                0xffffffff8250ad31                mon_Event
+                0xffffffff8250ad69                boot_HstCmdBasicHandler
+                0xffffffff8250adc9                boot_HstMonitor
+                0xffffffff8250ae35                boot_IspiGetRomedCfg
+                0xffffffff8250aec1                boot_IspiOpen
+                0xffffffff8250afa9                boot_IspiFlushFifos
+                0xffffffff8250afb9                boot_IspiClearRxDmaDone
+                0xffffffff8250afc9                boot_IspiClearTxDmaDone
+                0xffffffff8250afd9                boot_IspiClose
+                0xffffffff8250b01d                boot_IspiRxIfcChannelRelease
+                0xffffffff8250b035                boot_IspiTxIfcChannelRelease
+                0xffffffff8250b04d                boot_IspiSendData
+                0xffffffff8250b0a9                boot_IspiSendDataBuffer
+                0xffffffff8250b115                boot_IspiTxFifoAvail
+                0xffffffff8250b131                boot_IspiTxDmaDone
+                0xffffffff8250b161                boot_IspiTxFinished
+                0xffffffff8250b18d                boot_IspiGetData
+                0xffffffff8250b1bd                boot_IspiGetDataBuffer
+                0xffffffff8250b229                boot_IspiRxFifoLevel
+                0xffffffff8250b241                boot_IspiRxDmaDone
+                0xffffffff8250b271                boot_IspiForcePin
+                0xffffffff8250b305                boot_IspiGetRxIfcTc
+                0xffffffff8250b31c                g_bootIspiRomedCfg
+                0xffffffff8250b381                boot_UsbResetTransfert
+                0xffffffff8250b3a9                boot_UsbStartTransfert
+                0xffffffff8250b4a9                boot_UsbCancelTransfert
+                0xffffffff8250b4d1                boot_UsbContinueTransfert
+                0xffffffff8250ba39                boot_UsbInitVar
+                0xffffffff8250ba61                boot_UsbOpen
+                0xffffffff8250ba81                boot_UsbEpStall
+                0xffffffff8250bb09                boot_UsbRecv
+                0xffffffff8250bb51                boot_UsbSend
+                0xffffffff8250bbd5                boot_UsbCompletedCommand
+                0xffffffff8250bc1d                boot_UsbEpEnableInterrupt
+                0xffffffff8250bc6d                boot_UsbEpRxTransferedSize
+                0xffffffff8250bc89                boot_UsbEpTransfertDone
+                0xffffffff8250bd45                boot_UsbClose
+                0xffffffff8250bd81                boot_UsbReset
+                0xffffffff8250c509                boot_UsbIrqHandler
+                0xffffffff8250c7d5                boot_HostUsbDeviceCallback
+                0xffffffff8250c7e1                boot_HostUsbClockEnable
+                0xffffffff8250c819                boot_HostUsbClose
+                0xffffffff8250c829                boot_HostUsbSend
+                0xffffffff8250c985                boot_HostUsbEvent
+                0xffffffff8250ce15                boot_HostUsbRecv
+                0xffffffff8250cead                boot_HostUsbInit
+                0xffffffff8250cf25                boot_HostUsbOpen
+                0xffffffff8250cf94                boot_HostUsbInterface
+                0xffffffff8250d014                boot_romCsString
+                0xffffffff8250d044                boot_romDT
+                0xffffffff8250d054                MutedFrame_AMR
+                0xffffffff8250d05c                MutedFrame_HR
+                0xffffffff8250d06c                MutedFrame_EFR
+                0xffffffff8250d08c                MutedFrame_FR
+                0xffffffff8250d0b1                atoi
+                0xffffffff8250d0f1                bsearch
+                0xffffffff8250d150                _ctype
+                0xffffffff8250d251                memchr
+                0xffffffff8250d291                memcmp
+                0xffffffff8250d2c1                memcpy
+                0xffffffff8250d491                memmove
+                0xffffffff8250d5d1                memscan
+                0xffffffff8250d5f1                memset
+                0xffffffff8250d931                qsort
+                0xffffffff8250d961                strcat
+                0xffffffff8250d981                strchr
+                0xffffffff8250d9b1                strrchr
+                0xffffffff8250d9d1                strcmp
+                0xffffffff8250da11                strcpy
+                0xffffffff8250da31                strcspn
+                0xffffffff8250da71                strlen
+                0xffffffff8250da91                strnlen
+                0xffffffff8250daf1                strncmp
+                0xffffffff8250db31                strncpy
+                0xffffffff8250db71                strnicmp
+                0xffffffff8250dbf1                strsep
+                0xffffffff8250dc31                strspn
+                0xffffffff8250dc61                strstr
+                0xffffffff8250dcc1                strtok_r
+                0xffffffff8250dd41                strtok
+                0xffffffff8250dd61                strtol
+                0xffffffff8250df21                strtoul
+                0xffffffff8250e281                vsnprintf
+                0xffffffff8250e6b1                vsprintf
+                0xffffffff8250e6d1                snprintf
+                0xffffffff8250e6f1                sprintf
+
+.backup         0xffffffff8250e730        0x0
+ *(.backup)
+                0xffffffff8250e730                . = ALIGN (0x10)
+                0xffffffff8250e730                _ram_bss_start = .
+                0xffffffffa250e730                . = (. + 0x20000000)
+
+.ucbss          0xffffffffa250e730        0x0
+ *(.ucbss)
+ *(.ramucbss)
+                0xffffffffa250e730                . = ALIGN (0x10)
+                0xffffffff8250e730                . = (. - 0x20000000)
+
+.bss            0xffffffff8250e730    0x1ae70
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+ .scommon       0xffffffff8250e730        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+                0xffffffff8250e730                SysAppEnterTask
+ .scommon       0xffffffff8250e734        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+                0xffffffff8250e734                pUpgradeST86File
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss.SendQueue
+                0xffffffff8250e738    0x18e78 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+ .bss.CmdData   0xffffffff825275b0       0xcc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+ .bss.step1.4366
+                0xffffffff8252767c        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ *fill*         0xffffffff8252767d        0x3 00
+ .bss.sw.4365   0xffffffff82527680        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .bss.counter.4364
+                0xffffffff82527684        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .bss.step.4363
+                0xffffffff82527685        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ *fill*         0xffffffff82527686        0x2 00
+ .bss.GnssDataBuf
+                0xffffffff82527688      0x3e8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .bss.GnssData  0xffffffff82527a70       0x30 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .bss.GnssDataErro
+                0xffffffff82527aa0        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ *fill*         0xffffffff82527aa1        0x7 00
+ .bss.TempLatitude
+                0xffffffff82527aa8        0x8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .bss.TempLongitude
+                0xffffffff82527ab0        0x8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .bss.TempGnssData
+                0xffffffff82527ab8       0x30 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .bss.TempBuf   0xffffffff82527ae8       0x14 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .bss.Counter.4980
+                0xffffffff82527afc        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .bss.SendCounter.4522
+                0xffffffff82527afd        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .bss.erro_code.4521
+                0xffffffff82527afe        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ *fill*         0xffffffff82527aff        0x1 00
+ .bss.counter.4520
+                0xffffffff82527b00        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .bss.step.4519
+                0xffffffff82527b04        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ *fill*         0xffffffff82527b05        0x3 00
+ .bss.TcpIpSocket
+                0xffffffff82527b08       0xf8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .bss.IpAddrBack
+                0xffffffff82527c00       0x34 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .bss.GprsRecvBuf
+                0xffffffff82527c34       0x64 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .bss.SMSRecvBuf
+                0xffffffff82527c98       0xc8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .bss.SMSRecvNum
+                0xffffffff82527d60       0x14 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .bss.GprsRecvLen
+                0xffffffff82527d74        0x2 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ *fill*         0xffffffff82527d76        0x2 00
+ .bss.ComCmdRes
+                0xffffffff82527d78       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .bss.SetArgID  0xffffffff82527d90        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ *fill*         0xffffffff82527d91        0x1 00
+ .bss.SMSRecvLen
+                0xffffffff82527d92        0x2 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .bss.Off.4293  0xffffffff82527d94        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .bss.On.4292   0xffffffff82527d95        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ *fill*         0xffffffff82527d96        0x2 00
+ .bss.sw.4291   0xffffffff82527d98        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .bss.step.4290
+                0xffffffff82527d9c        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ *fill*         0xffffffff82527d9d        0x3 00
+ .bss.sw.4255   0xffffffff82527da0        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .bss.step.4254
+                0xffffffff82527da4        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .bss.counter.4424
+                0xffffffff82527da5        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ *fill*         0xffffffff82527da6        0x2 00
+ .bss.sw.4423   0xffffffff82527da8        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .bss.step.4422
+                0xffffffff82527dac        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ *fill*         0xffffffff82527dad        0x3 00
+ .bss.counter.4395
+                0xffffffff82527db0        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .bss.step.4394
+                0xffffffff82527db4        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ *fill*         0xffffffff82527db5        0x3 00
+ .bss.SysTime   0xffffffff82527db8       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .bss.SetTime   0xffffffff82527dc8       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .bss.SleepStatus
+                0xffffffff82527dd8        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ *fill*         0xffffffff82527dd9        0x3 00
+ .bss.WarningValue
+                0xffffffff82527ddc        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .bss.SysCfg    0xffffffff82527de0       0xd8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+ .bss.step2.4402
+                0xffffffff82527eb8        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ *fill*         0xffffffff82527eb9        0x3 00
+ .bss.NextTime  0xffffffff82527ebc        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .bss.NextTime1
+                0xffffffff82527ec0        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .bss.AccStateBack
+                0xffffffff82527ec4        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .bss.ShellStateBack
+                0xffffffff82527ec5        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ *fill*         0xffffffff82527ec6        0x2 00
+ .bss.sw1.4323  0xffffffff82527ec8        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .bss.sw.4322   0xffffffff82527ecc        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .bss.step2.4321
+                0xffffffff82527ed0        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .bss.step1.4320
+                0xffffffff82527ed1        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .bss.step.4319
+                0xffffffff82527ed2        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ *fill*         0xffffffff82527ed3        0x1 00
+ .bss.counter.4247
+                0xffffffff82527ed4        0x2 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ *fill*         0xffffffff82527ed6        0x2 00
+ .bss.DataPacketBuf
+                0xffffffff82527ed8      0x200 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .bss.SysRunData
+                0xffffffff825280d8       0x44 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ *fill*         0xffffffff8252811c        0x4 00
+ .bss.DistancePro
+                0xffffffff82528120       0x30 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .bss.ticks     0xffffffff82528150        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+                0xffffffff82528150                ticks
+ .bss.step1.4241
+                0xffffffff82528154        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ .bss.step.4240
+                0xffffffff82528155        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ *fill*         0xffffffff82528156        0x2 00
+ .bss.UpLoadBuf
+                0xffffffff82528158      0x200 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ .bss.DataBig   0xffffffff82528358        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ *fill*         0xffffffff82528359        0x3 00
+ .bss.HeatSw    0xffffffff8252835c        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ .bss.CanProNumSendBig
+                0xffffffff82528360        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .bss.GetStatusBig
+                0xffffffff82528361        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ *fill*         0xffffffff82528362        0x2 00
+ .bss.sw1.4843  0xffffffff82528364        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .bss.sw.4842   0xffffffff82528368        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .bss.step2.4841
+                0xffffffff8252836c        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .bss.step1.4840
+                0xffffffff8252836d        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .bss.step.4839
+                0xffffffff8252836e        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .bss.MonstateTmp
+                0xffffffff8252836f        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .bss.sw.4509   0xffffffff82528370        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .bss.step.4508
+                0xffffffff82528374        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ *fill*         0xffffffff82528375        0x3 00
+ .bss.UpgradeStatus
+                0xffffffff82528378        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .bss.UpgradeData
+                0xffffffff8252837c        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .bss.pUpgradeST86
+                0xffffffff82528380        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .bss.TerRecvBuf
+                0xffffffff82528384      0x400 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .bss.TerSendBuf
+                0xffffffff82528784      0x4b0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .bss.RunMode   0xffffffff82528c34        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .bss.McuStatus
+                0xffffffff82528c35        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .bss.ConfigFlag
+                0xffffffff82528c36        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ *fill*         0xffffffff82528c37        0x1 00
+ .bss.CanData   0xffffffff82528c38       0x3c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .bss.TerStateData
+                0xffffffff82528c74       0x20 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .bss.TerTime   0xffffffff82528c94       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .bss.LockCar   0xffffffff82528ca4       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .bss.stopwatch.4334
+                0xffffffff82528cb4        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .bss.step.4332
+                0xffffffff82528cb8        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .bss.com1_new_data
+                0xffffffff82528cbc        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ *fill*         0xffffffff82528cbd        0x3 00
+ .bss.com1_recv_size
+                0xffffffff82528cc0        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .bss.com1_recv_buf
+                0xffffffff82528cc4      0x400 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .bss.com2_new_data
+                0xffffffff825290c4        0x1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ *fill*         0xffffffff825290c5        0x3 00
+ .bss.com2_recv_size
+                0xffffffff825290c8        0x4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .bss.com2_recv_buf
+                0xffffffff825290cc      0x400 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .bss.DataLen.4235
+                0xffffffff825294cc        0x2 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+ *fill*         0xffffffff825294ce        0x2 00
+ .bss.TmpBuf    0xffffffff825294d0       0xc8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+ *(COMMON)
+ *(.rambss)
+                0xffffffff825295a0                . = ALIGN (0x10)
+ *fill*         0xffffffff82529598        0x8 00
+                0xffffffff825295a0                _ram_bss_end = .
+                0x000000000001ae70                _ram_bss_size = (_ram_bss_end - _ram_bss_start)
+                0xffffffff825a0800                _ram_top = 0xffffffff825a0800
+                0x0000000000077260                _heap_size = (_ram_top - _ram_bss_end)
+                0xffffffff825295a0                _heap_start = _ram_bss_end
+                0xffffffff825a0800                _heap_end = (_ram_bss_end + _heap_size)
+                0x0000000000000001                ASSERT ((ABSOLUTE (_ram_top) > ABSOLUTE (_ram_bss_end)), APP External RAM overflow !)
+START GROUP
+LOAD /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a
+END GROUP
+LOAD /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a
+OUTPUT(/cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/8809/sl_app_S80_20200730_release.elf elf32-littlemips)
+
+.reginfo        0x0000000000000000       0x18
+ .reginfo       0x0000000000000000       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+
+.mdebug.abi32   0x0000000000000000        0x0
+ .mdebug.abi32  0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(VersionNum.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunssfsi.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunsdfsi.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_sf.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_sf.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lt_sf.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_si.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_df.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_sf.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_mul_df.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_div_df.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_eq_df.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_gt_df.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_df.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_si_to_df.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_si.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_df.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_sf.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_df.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_usi_to_df.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lshrdi3.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ashldi3.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ucmpdi2.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clzsi2.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_sf.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_sf.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_sf.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_sf.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_df.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_df.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_df.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clz.o)
+
+.comment        0x0000000000000000       0x31
+ .comment       0x0000000000000000       0x31 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+                                         0x32 (size before relaxing)
+ .comment       0x0000000000000000       0x32 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+ .comment       0x0000000000000000       0x32 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .comment       0x0000000000000000       0x32 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .comment       0x0000000000000000       0x32 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .comment       0x0000000000000000       0x32 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .comment       0x0000000000000000       0x32 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .comment       0x0000000000000000       0x32 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+ .comment       0x0000000000000000       0x32 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .comment       0x0000000000000000       0x32 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+ .comment       0x0000000000000000       0x32 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ .comment       0x0000000000000000       0x32 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .comment       0x0000000000000000       0x32 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .comment       0x0000000000000000       0x32 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(VersionNum.o)
+ .comment       0x0000000000000000       0x32 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app.o)
+ .comment       0x0000000000000000       0x32 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunssfsi.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunsdfsi.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_sf.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_sf.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lt_sf.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_si.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_df.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_sf.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_mul_df.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_div_df.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_eq_df.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_gt_df.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_df.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_si_to_df.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_si.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_df.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_sf.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_df.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_usi_to_df.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lshrdi3.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ashldi3.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ucmpdi2.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clzsi2.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_sf.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_sf.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_sf.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_sf.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_df.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_df.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_df.o)
+ .comment       0x0000000000000000       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clz.o)
+
+.gnu.attributes
+                0x0000000000000000       0x10
+ .gnu.attributes
+                0x0000000000000000       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+ .gnu.attributes
+                0x0000000000000010       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+ .gnu.attributes
+                0x0000000000000020       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .gnu.attributes
+                0x0000000000000030       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .gnu.attributes
+                0x0000000000000040       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .gnu.attributes
+                0x0000000000000050       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .gnu.attributes
+                0x0000000000000060       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .gnu.attributes
+                0x0000000000000070       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+ .gnu.attributes
+                0x0000000000000080       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .gnu.attributes
+                0x0000000000000090       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+ .gnu.attributes
+                0x00000000000000a0       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ .gnu.attributes
+                0x00000000000000b0       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .gnu.attributes
+                0x00000000000000c0       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .gnu.attributes
+                0x00000000000000d0       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(VersionNum.o)
+ .gnu.attributes
+                0x00000000000000e0       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app.o)
+ .gnu.attributes
+                0x00000000000000f0       0x10 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+ .gnu.attributes
+                0x0000000000000100       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunssfsi.o)
+ .gnu.attributes
+                0x0000000000000110       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunsdfsi.o)
+ .gnu.attributes
+                0x0000000000000120       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_sf.o)
+ .gnu.attributes
+                0x0000000000000130       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_sf.o)
+ .gnu.attributes
+                0x0000000000000140       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lt_sf.o)
+ .gnu.attributes
+                0x0000000000000150       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_si.o)
+ .gnu.attributes
+                0x0000000000000160       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_df.o)
+ .gnu.attributes
+                0x0000000000000170       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_sf.o)
+ .gnu.attributes
+                0x0000000000000180       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o)
+ .gnu.attributes
+                0x0000000000000190       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_mul_df.o)
+ .gnu.attributes
+                0x00000000000001a0       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_div_df.o)
+ .gnu.attributes
+                0x00000000000001b0       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_eq_df.o)
+ .gnu.attributes
+                0x00000000000001c0       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_gt_df.o)
+ .gnu.attributes
+                0x00000000000001d0       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_df.o)
+ .gnu.attributes
+                0x00000000000001e0       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_si_to_df.o)
+ .gnu.attributes
+                0x00000000000001f0       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_si.o)
+ .gnu.attributes
+                0x0000000000000200       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_df.o)
+ .gnu.attributes
+                0x0000000000000210       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_sf.o)
+ .gnu.attributes
+                0x0000000000000220       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_df.o)
+ .gnu.attributes
+                0x0000000000000230       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_usi_to_df.o)
+ .gnu.attributes
+                0x0000000000000240       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lshrdi3.o)
+ .gnu.attributes
+                0x0000000000000250       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ashldi3.o)
+ .gnu.attributes
+                0x0000000000000260       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ucmpdi2.o)
+ .gnu.attributes
+                0x0000000000000270       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clzsi2.o)
+ .gnu.attributes
+                0x0000000000000280       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_sf.o)
+ .gnu.attributes
+                0x0000000000000290       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_sf.o)
+ .gnu.attributes
+                0x00000000000002a0       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_sf.o)
+ .gnu.attributes
+                0x00000000000002b0       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_sf.o)
+ .gnu.attributes
+                0x00000000000002c0       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_df.o)
+ .gnu.attributes
+                0x00000000000002d0       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_df.o)
+ .gnu.attributes
+                0x00000000000002e0       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_df.o)
+ .gnu.attributes
+                0x00000000000002f0       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clz.o)
+
+.pdr            0x0000000000000000        0x0
+ .pdr           0x0000000000000000        0x0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app.o)
+ .pdr           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_sf.o)
+ .pdr           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_df.o)
+ .pdr           0x0000000000000000        0x0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clz.o)
+
+.debug_abbrev   0x0000000000000000     0x4c6b
+ .debug_abbrev  0x0000000000000000      0x205 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+ .debug_abbrev  0x0000000000000205      0x2ae /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+ .debug_abbrev  0x00000000000004b3      0x279 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .debug_abbrev  0x000000000000072c      0x387 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .debug_abbrev  0x0000000000000ab3      0x226 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .debug_abbrev  0x0000000000000cd9      0x357 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .debug_abbrev  0x0000000000001030      0x2e2 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .debug_abbrev  0x0000000000001312      0x232 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+ .debug_abbrev  0x0000000000001544      0x273 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .debug_abbrev  0x00000000000017b7       0xce /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+ .debug_abbrev  0x0000000000001885      0x1de /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ .debug_abbrev  0x0000000000001a63      0x3bb /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .debug_abbrev  0x0000000000001e1e      0x2a9 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .debug_abbrev  0x00000000000020c7       0x59 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(VersionNum.o)
+ .debug_abbrev  0x0000000000002120      0x18b /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app.o)
+ .debug_abbrev  0x00000000000022ab      0x218 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+ .debug_abbrev  0x00000000000024c3       0x66 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunssfsi.o)
+ .debug_abbrev  0x0000000000002529       0x66 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunsdfsi.o)
+ .debug_abbrev  0x000000000000258f      0x1db /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_sf.o)
+ .debug_abbrev  0x000000000000276a      0x15a /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_sf.o)
+ .debug_abbrev  0x00000000000028c4      0x15a /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lt_sf.o)
+ .debug_abbrev  0x0000000000002a1e      0x17f /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_si.o)
+ .debug_abbrev  0x0000000000002b9d      0x131 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_df.o)
+ .debug_abbrev  0x0000000000002cce       0xc3 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_sf.o)
+ .debug_abbrev  0x0000000000002d91      0x1ea /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o)
+ .debug_abbrev  0x0000000000002f7b      0x200 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_mul_df.o)
+ .debug_abbrev  0x000000000000317b      0x1dc /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_div_df.o)
+ .debug_abbrev  0x0000000000003357      0x15a /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_eq_df.o)
+ .debug_abbrev  0x00000000000034b1      0x15a /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_gt_df.o)
+ .debug_abbrev  0x000000000000360b      0x15a /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_df.o)
+ .debug_abbrev  0x0000000000003765      0x148 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_si_to_df.o)
+ .debug_abbrev  0x00000000000038ad      0x17f /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_si.o)
+ .debug_abbrev  0x0000000000003a2c      0x109 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_df.o)
+ .debug_abbrev  0x0000000000003b35      0x140 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_sf.o)
+ .debug_abbrev  0x0000000000003c75       0xc3 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_df.o)
+ .debug_abbrev  0x0000000000003d38      0x157 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_usi_to_df.o)
+ .debug_abbrev  0x0000000000003e8f      0x104 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lshrdi3.o)
+ .debug_abbrev  0x0000000000003f93       0xf7 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ashldi3.o)
+ .debug_abbrev  0x000000000000408a       0xd0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ucmpdi2.o)
+ .debug_abbrev  0x000000000000415a       0xc4 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x000000000000421e      0x1c0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_sf.o)
+ .debug_abbrev  0x00000000000043de      0x163 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_sf.o)
+ .debug_abbrev  0x0000000000004541      0x14a /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_sf.o)
+ .debug_abbrev  0x000000000000468b      0x109 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_sf.o)
+ .debug_abbrev  0x0000000000004794      0x1c0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_df.o)
+ .debug_abbrev  0x0000000000004954      0x163 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_df.o)
+ .debug_abbrev  0x0000000000004ab7      0x14a /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_df.o)
+ .debug_abbrev  0x0000000000004c01       0x6a /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clz.o)
+
+.debug_info     0x0000000000000000    0x45cec
+ .debug_info    0x0000000000000000     0x4494 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+ .debug_info    0x0000000000004494     0x46a1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+ .debug_info    0x0000000000008b35     0x487c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .debug_info    0x000000000000d3b1     0x595e /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .debug_info    0x0000000000012d0f     0x49ab /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .debug_info    0x00000000000176ba     0x498d /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .debug_info    0x000000000001c047     0x48b3 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .debug_info    0x00000000000208fa     0x45c5 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+ .debug_info    0x0000000000024ebf     0x4b92 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .debug_info    0x0000000000029a51      0x19b /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+ .debug_info    0x0000000000029bec     0x439b /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ .debug_info    0x000000000002df87     0x558d /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .debug_info    0x0000000000033514     0x45d0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .debug_info    0x0000000000037ae4       0xaa /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(VersionNum.o)
+ .debug_info    0x0000000000037b8e     0x42b4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app.o)
+ .debug_info    0x000000000003be42     0x54d3 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+ .debug_info    0x0000000000041315       0xd1 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunssfsi.o)
+ .debug_info    0x00000000000413e6       0xd1 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunsdfsi.o)
+ .debug_info    0x00000000000414b7      0x483 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_sf.o)
+ .debug_info    0x000000000004193a      0x28c /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_sf.o)
+ .debug_info    0x0000000000041bc6      0x28c /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lt_sf.o)
+ .debug_info    0x0000000000041e52      0x2bd /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_si.o)
+ .debug_info    0x000000000004210f      0x241 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_df.o)
+ .debug_info    0x0000000000042350      0x160 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_sf.o)
+ .debug_info    0x00000000000424b0      0x48e /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o)
+ .debug_info    0x000000000004293e      0x47e /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_mul_df.o)
+ .debug_info    0x0000000000042dbc      0x39e /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_div_df.o)
+ .debug_info    0x000000000004315a      0x29a /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_eq_df.o)
+ .debug_info    0x00000000000433f4      0x29a /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_gt_df.o)
+ .debug_info    0x000000000004368e      0x29a /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_df.o)
+ .debug_info    0x0000000000043928      0x214 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_si_to_df.o)
+ .debug_info    0x0000000000043b3c      0x2c9 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_si.o)
+ .debug_info    0x0000000000043e05      0x1d3 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_df.o)
+ .debug_info    0x0000000000043fd8      0x25d /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_sf.o)
+ .debug_info    0x0000000000044235      0x160 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_df.o)
+ .debug_info    0x0000000000044395      0x213 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_usi_to_df.o)
+ .debug_info    0x00000000000445a8      0x19b /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lshrdi3.o)
+ .debug_info    0x0000000000044743      0x19f /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ashldi3.o)
+ .debug_info    0x00000000000448e2      0x160 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ucmpdi2.o)
+ .debug_info    0x0000000000044a42      0x132 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clzsi2.o)
+ .debug_info    0x0000000000044b74      0x2ea /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_sf.o)
+ .debug_info    0x0000000000044e5e      0x25a /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_sf.o)
+ .debug_info    0x00000000000450b8      0x21f /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_sf.o)
+ .debug_info    0x00000000000452d7      0x1d3 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_sf.o)
+ .debug_info    0x00000000000454aa      0x2f8 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_df.o)
+ .debug_info    0x00000000000457a2      0x266 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_df.o)
+ .debug_info    0x0000000000045a08      0x21f /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_df.o)
+ .debug_info    0x0000000000045c27       0xc5 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clz.o)
+
+.debug_line     0x0000000000000000     0x46a3
+ .debug_line    0x0000000000000000      0x247 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+ .debug_line    0x0000000000000247      0x304 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+ .debug_line    0x000000000000054b      0x3a9 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .debug_line    0x00000000000008f4      0x8bb /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .debug_line    0x00000000000011af      0x2a2 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .debug_line    0x0000000000001451      0x433 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .debug_line    0x0000000000001884      0x3a9 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .debug_line    0x0000000000001c2d      0x286 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+ .debug_line    0x0000000000001eb3      0x2e1 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .debug_line    0x0000000000002194       0x9a /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+ .debug_line    0x000000000000222e      0x221 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ .debug_line    0x000000000000244f      0x88d /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .debug_line    0x0000000000002cdc      0x2f7 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .debug_line    0x0000000000002fd3       0x41 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(VersionNum.o)
+ .debug_line    0x0000000000003014      0x1be /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app.o)
+ .debug_line    0x00000000000031d2      0x33b /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+ .debug_line    0x000000000000350d       0x65 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunssfsi.o)
+ .debug_line    0x0000000000003572       0x66 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunsdfsi.o)
+ .debug_line    0x00000000000035d8       0xfa /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_sf.o)
+ .debug_line    0x00000000000036d2       0x7e /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_sf.o)
+ .debug_line    0x0000000000003750       0x7e /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lt_sf.o)
+ .debug_line    0x00000000000037ce       0x86 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_si.o)
+ .debug_line    0x0000000000003854       0x76 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_df.o)
+ .debug_line    0x00000000000038ca       0x5f /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_sf.o)
+ .debug_line    0x0000000000003929      0x111 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o)
+ .debug_line    0x0000000000003a3a       0xe0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_mul_df.o)
+ .debug_line    0x0000000000003b1a       0xca /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_div_df.o)
+ .debug_line    0x0000000000003be4       0x7f /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_eq_df.o)
+ .debug_line    0x0000000000003c63       0x7f /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_gt_df.o)
+ .debug_line    0x0000000000003ce2       0x7f /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_df.o)
+ .debug_line    0x0000000000003d61       0x9b /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_si_to_df.o)
+ .debug_line    0x0000000000003dfc       0x85 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_si.o)
+ .debug_line    0x0000000000003e81       0x7a /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_df.o)
+ .debug_line    0x0000000000003efb       0x7e /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_sf.o)
+ .debug_line    0x0000000000003f79       0x5f /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_df.o)
+ .debug_line    0x0000000000003fd8       0x97 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_usi_to_df.o)
+ .debug_line    0x000000000000406f       0x6d /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lshrdi3.o)
+ .debug_line    0x00000000000040dc       0x6f /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ashldi3.o)
+ .debug_line    0x000000000000414b       0x65 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ucmpdi2.o)
+ .debug_line    0x00000000000041b0       0x6f /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clzsi2.o)
+ .debug_line    0x000000000000421f       0xb0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_sf.o)
+ .debug_line    0x00000000000042cf       0xa1 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_sf.o)
+ .debug_line    0x0000000000004370       0x8f /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_sf.o)
+ .debug_line    0x00000000000043ff       0x78 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_sf.o)
+ .debug_line    0x0000000000004477       0xb5 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_df.o)
+ .debug_line    0x000000000000452c       0x99 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_df.o)
+ .debug_line    0x00000000000045c5       0x90 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_df.o)
+ .debug_line    0x0000000000004655       0x4e /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clz.o)
+
+.debug_frame    0x0000000000000000     0x1368
+ .debug_frame   0x0000000000000000       0x50 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+ .debug_frame   0x0000000000000050      0x110 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+ .debug_frame   0x0000000000000160       0xcc /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .debug_frame   0x000000000000022c      0x3b8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .debug_frame   0x00000000000005e4       0xb8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .debug_frame   0x000000000000069c      0x1a8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .debug_frame   0x0000000000000844      0x108 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .debug_frame   0x000000000000094c       0xb0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+ .debug_frame   0x00000000000009fc       0xa8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .debug_frame   0x0000000000000aa4       0x60 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+ .debug_frame   0x0000000000000b04       0x48 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ .debug_frame   0x0000000000000b4c      0x1a0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .debug_frame   0x0000000000000cec       0xd8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .debug_frame   0x0000000000000dc4       0x20 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(VersionNum.o)
+ .debug_frame   0x0000000000000de4       0x30 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+ .debug_frame   0x0000000000000e14       0x2c /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunssfsi.o)
+ .debug_frame   0x0000000000000e40       0x30 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunsdfsi.o)
+ .debug_frame   0x0000000000000e70       0x70 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_sf.o)
+ .debug_frame   0x0000000000000ee0       0x30 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_sf.o)
+ .debug_frame   0x0000000000000f10       0x30 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lt_sf.o)
+ .debug_frame   0x0000000000000f40       0x28 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_si.o)
+ .debug_frame   0x0000000000000f68       0x28 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_df.o)
+ .debug_frame   0x0000000000000f90       0x70 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o)
+ .debug_frame   0x0000000000001000       0x30 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_mul_df.o)
+ .debug_frame   0x0000000000001030       0x30 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_div_df.o)
+ .debug_frame   0x0000000000001060       0x30 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_eq_df.o)
+ .debug_frame   0x0000000000001090       0x30 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_gt_df.o)
+ .debug_frame   0x00000000000010c0       0x30 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_df.o)
+ .debug_frame   0x00000000000010f0       0x30 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_si_to_df.o)
+ .debug_frame   0x0000000000001120       0x2c /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_si.o)
+ .debug_frame   0x000000000000114c       0x28 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_df.o)
+ .debug_frame   0x0000000000001174       0x28 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_sf.o)
+ .debug_frame   0x000000000000119c       0x30 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_usi_to_df.o)
+ .debug_frame   0x00000000000011cc       0x2c /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lshrdi3.o)
+ .debug_frame   0x00000000000011f8       0x2c /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ashldi3.o)
+ .debug_frame   0x0000000000001224       0x2c /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ucmpdi2.o)
+ .debug_frame   0x0000000000001250       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clzsi2.o)
+ .debug_frame   0x0000000000001270       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_sf.o)
+ .debug_frame   0x0000000000001290       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_sf.o)
+ .debug_frame   0x00000000000012b0       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_sf.o)
+ .debug_frame   0x00000000000012d0       0x28 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_sf.o)
+ .debug_frame   0x00000000000012f8       0x30 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_df.o)
+ .debug_frame   0x0000000000001328       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_df.o)
+ .debug_frame   0x0000000000001348       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_df.o)
+
+.debug_loc      0x0000000000000000     0x403c
+ .debug_loc     0x0000000000000000      0x126 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+ .debug_loc     0x0000000000000126      0x291 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+ .debug_loc     0x00000000000003b7      0x378 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .debug_loc     0x000000000000072f      0xb9d /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .debug_loc     0x00000000000012cc      0x140 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .debug_loc     0x000000000000140c      0x7bb /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .debug_loc     0x0000000000001bc7      0x228 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .debug_loc     0x0000000000001def      0x1c2 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+ .debug_loc     0x0000000000001fb1      0x190 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .debug_loc     0x0000000000002141       0x3e /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ .debug_loc     0x000000000000217f      0x729 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .debug_loc     0x00000000000028a8      0x2d9 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .debug_loc     0x0000000000002b81       0xb5 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+ .debug_loc     0x0000000000002c36       0x3d /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunssfsi.o)
+ .debug_loc     0x0000000000002c73       0x57 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunsdfsi.o)
+ .debug_loc     0x0000000000002cca      0x2ab /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_sf.o)
+ .debug_loc     0x0000000000002f75       0x46 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_sf.o)
+ .debug_loc     0x0000000000002fbb       0x46 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lt_sf.o)
+ .debug_loc     0x0000000000003001       0x66 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_si.o)
+ .debug_loc     0x0000000000003067       0x32 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_df.o)
+ .debug_loc     0x0000000000003099      0x261 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o)
+ .debug_loc     0x00000000000032fa      0x167 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_mul_df.o)
+ .debug_loc     0x0000000000003461      0x164 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_div_df.o)
+ .debug_loc     0x00000000000035c5       0x50 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_eq_df.o)
+ .debug_loc     0x0000000000003615       0x50 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_gt_df.o)
+ .debug_loc     0x0000000000003665       0x50 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_df.o)
+ .debug_loc     0x00000000000036b5       0x90 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_si_to_df.o)
+ .debug_loc     0x0000000000003745       0x6b /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_si.o)
+ .debug_loc     0x00000000000037b0       0x7d /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_df.o)
+ .debug_loc     0x000000000000382d       0x60 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_sf.o)
+ .debug_loc     0x000000000000388d       0x72 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_usi_to_df.o)
+ .debug_loc     0x00000000000038ff       0xbd /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lshrdi3.o)
+ .debug_loc     0x00000000000039bc       0xe5 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ashldi3.o)
+ .debug_loc     0x0000000000003aa1       0x6f /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ucmpdi2.o)
+ .debug_loc     0x0000000000003b10       0x31 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clzsi2.o)
+ .debug_loc     0x0000000000003b41       0xd0 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_sf.o)
+ .debug_loc     0x0000000000003c11       0x7b /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_sf.o)
+ .debug_loc     0x0000000000003c8c       0x29 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_sf.o)
+ .debug_loc     0x0000000000003cb5       0x6b /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_sf.o)
+ .debug_loc     0x0000000000003d20      0x204 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_df.o)
+ .debug_loc     0x0000000000003f24       0xef /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_df.o)
+ .debug_loc     0x0000000000004013       0x29 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_df.o)
+
+.debug_pubnames
+                0x0000000000000000      0xeec
+ .debug_pubnames
+                0x0000000000000000       0x45 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+ .debug_pubnames
+                0x0000000000000045       0xce /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+ .debug_pubnames
+                0x0000000000000113       0x65 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .debug_pubnames
+                0x0000000000000178      0x295 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .debug_pubnames
+                0x000000000000040d       0x61 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .debug_pubnames
+                0x000000000000046e      0x128 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .debug_pubnames
+                0x0000000000000596       0xe4 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .debug_pubnames
+                0x000000000000067a       0x7c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+ .debug_pubnames
+                0x00000000000006f6       0x83 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .debug_pubnames
+                0x0000000000000779       0x88 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+ .debug_pubnames
+                0x0000000000000801       0x39 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ .debug_pubnames
+                0x000000000000083a      0x173 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .debug_pubnames
+                0x00000000000009ad       0xae /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .debug_pubnames
+                0x0000000000000a5b       0x20 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(VersionNum.o)
+ .debug_pubnames
+                0x0000000000000a7b       0x19 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app.o)
+ .debug_pubnames
+                0x0000000000000a94       0x2a /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+ .debug_pubnames
+                0x0000000000000abe       0x23 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunssfsi.o)
+ .debug_pubnames
+                0x0000000000000ae1       0x23 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunsdfsi.o)
+ .debug_pubnames
+                0x0000000000000b04       0x2c /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_sf.o)
+ .debug_pubnames
+                0x0000000000000b30       0x1e /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_sf.o)
+ .debug_pubnames
+                0x0000000000000b4e       0x1e /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lt_sf.o)
+ .debug_pubnames
+                0x0000000000000b6c       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_si.o)
+ .debug_pubnames
+                0x0000000000000b8c       0x24 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_df.o)
+ .debug_pubnames
+                0x0000000000000bb0       0x22 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_sf.o)
+ .debug_pubnames
+                0x0000000000000bd2       0x2c /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o)
+ .debug_pubnames
+                0x0000000000000bfe       0x1f /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_mul_df.o)
+ .debug_pubnames
+                0x0000000000000c1d       0x1f /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_div_df.o)
+ .debug_pubnames
+                0x0000000000000c3c       0x1e /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_eq_df.o)
+ .debug_pubnames
+                0x0000000000000c5a       0x1e /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_gt_df.o)
+ .debug_pubnames
+                0x0000000000000c78       0x1e /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_df.o)
+ .debug_pubnames
+                0x0000000000000c96       0x22 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_si_to_df.o)
+ .debug_pubnames
+                0x0000000000000cb8       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_si.o)
+ .debug_pubnames
+                0x0000000000000cd8       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_df.o)
+ .debug_pubnames
+                0x0000000000000cf8       0x23 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_sf.o)
+ .debug_pubnames
+                0x0000000000000d1b       0x22 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_df.o)
+ .debug_pubnames
+                0x0000000000000d3d       0x24 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_usi_to_df.o)
+ .debug_pubnames
+                0x0000000000000d61       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lshrdi3.o)
+ .debug_pubnames
+                0x0000000000000d81       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ashldi3.o)
+ .debug_pubnames
+                0x0000000000000da1       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ucmpdi2.o)
+ .debug_pubnames
+                0x0000000000000dc1       0x1f /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clzsi2.o)
+ .debug_pubnames
+                0x0000000000000de0       0x1f /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_sf.o)
+ .debug_pubnames
+                0x0000000000000dff       0x21 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_sf.o)
+ .debug_pubnames
+                0x0000000000000e20       0x26 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_sf.o)
+ .debug_pubnames
+                0x0000000000000e46       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_sf.o)
+ .debug_pubnames
+                0x0000000000000e66       0x1f /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_df.o)
+ .debug_pubnames
+                0x0000000000000e85       0x21 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_df.o)
+ .debug_pubnames
+                0x0000000000000ea6       0x26 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_df.o)
+ .debug_pubnames
+                0x0000000000000ecc       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clz.o)
+
+.debug_aranges  0x0000000000000000      0x950
+ .debug_aranges
+                0x0000000000000000       0x28 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+ .debug_aranges
+                0x0000000000000028       0x68 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+ .debug_aranges
+                0x0000000000000090       0x50 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .debug_aranges
+                0x00000000000000e0      0x128 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .debug_aranges
+                0x0000000000000208       0x48 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .debug_aranges
+                0x0000000000000250       0xb8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .debug_aranges
+                0x0000000000000308       0x70 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .debug_aranges
+                0x0000000000000378       0x48 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+ .debug_aranges
+                0x00000000000003c0       0x48 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .debug_aranges
+                0x0000000000000408       0x40 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+ .debug_aranges
+                0x0000000000000448       0x28 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ .debug_aranges
+                0x0000000000000470       0xa0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .debug_aranges
+                0x0000000000000510       0x60 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .debug_aranges
+                0x0000000000000570       0x20 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(VersionNum.o)
+ .debug_aranges
+                0x0000000000000590       0x20 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+ .debug_aranges
+                0x00000000000005b0       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunssfsi.o)
+ .debug_aranges
+                0x00000000000005d0       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunsdfsi.o)
+ .debug_aranges
+                0x00000000000005f0       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_sf.o)
+ .debug_aranges
+                0x0000000000000610       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_sf.o)
+ .debug_aranges
+                0x0000000000000630       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lt_sf.o)
+ .debug_aranges
+                0x0000000000000650       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_si.o)
+ .debug_aranges
+                0x0000000000000670       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_df.o)
+ .debug_aranges
+                0x0000000000000690       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o)
+ .debug_aranges
+                0x00000000000006b0       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_mul_df.o)
+ .debug_aranges
+                0x00000000000006d0       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_div_df.o)
+ .debug_aranges
+                0x00000000000006f0       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_eq_df.o)
+ .debug_aranges
+                0x0000000000000710       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_gt_df.o)
+ .debug_aranges
+                0x0000000000000730       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_df.o)
+ .debug_aranges
+                0x0000000000000750       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_si_to_df.o)
+ .debug_aranges
+                0x0000000000000770       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_si.o)
+ .debug_aranges
+                0x0000000000000790       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_df.o)
+ .debug_aranges
+                0x00000000000007b0       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_sf.o)
+ .debug_aranges
+                0x00000000000007d0       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_usi_to_df.o)
+ .debug_aranges
+                0x00000000000007f0       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lshrdi3.o)
+ .debug_aranges
+                0x0000000000000810       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ashldi3.o)
+ .debug_aranges
+                0x0000000000000830       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ucmpdi2.o)
+ .debug_aranges
+                0x0000000000000850       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x0000000000000870       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_sf.o)
+ .debug_aranges
+                0x0000000000000890       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_sf.o)
+ .debug_aranges
+                0x00000000000008b0       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_sf.o)
+ .debug_aranges
+                0x00000000000008d0       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_sf.o)
+ .debug_aranges
+                0x00000000000008f0       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_df.o)
+ .debug_aranges
+                0x0000000000000910       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_df.o)
+ .debug_aranges
+                0x0000000000000930       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_df.o)
+
+.debug_ranges   0x0000000000000000      0x5b8
+ .debug_ranges  0x0000000000000000       0x20 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+ .debug_ranges  0x0000000000000020       0x60 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+ .debug_ranges  0x0000000000000080       0x48 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+ .debug_ranges  0x00000000000000c8      0x120 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+ .debug_ranges  0x00000000000001e8       0x40 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+ .debug_ranges  0x0000000000000228       0xb0 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+ .debug_ranges  0x00000000000002d8       0x68 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+ .debug_ranges  0x0000000000000340       0x40 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+ .debug_ranges  0x0000000000000380       0x40 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+ .debug_ranges  0x00000000000003c0       0x38 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+ .debug_ranges  0x00000000000003f8       0x20 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+ .debug_ranges  0x0000000000000418       0xc8 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+ .debug_ranges  0x00000000000004e0       0x58 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+ .debug_ranges  0x0000000000000538       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(VersionNum.o)
+ .debug_ranges  0x0000000000000550       0x18 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+ .debug_ranges  0x0000000000000568       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_mul_df.o)
+ .debug_ranges  0x0000000000000588       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_si_to_df.o)
+ .debug_ranges  0x00000000000005a0       0x18 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_usi_to_df.o)
+
+.debug_str      0x0000000000000000     0x71cb
+ .debug_str     0x0000000000000000     0x3b7c /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app_init.o)
+                                       0x3c37 (size before relaxing)
+ .debug_str     0x0000000000003b7c      0x1ec /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(FiFoData.o)
+                                       0x3ca7 (size before relaxing)
+ .debug_str     0x0000000000003d68      0x20d /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(GNSS.o)
+                                       0x3d98 (size before relaxing)
+ .debug_str     0x0000000000003f75     0x1b05 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Gprs.o)
+                                       0x563c (size before relaxing)
+ .debug_str     0x0000000000005a7a       0x67 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Led.o)
+                                       0x3f2b (size before relaxing)
+ .debug_str     0x0000000000005ae1      0x157 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(ProData.o)
+                                       0x3c09 (size before relaxing)
+ .debug_str     0x0000000000005c38      0x103 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Rtc.o)
+                                       0x3ce5 (size before relaxing)
+ .debug_str     0x0000000000005d3b       0x86 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysFile.o)
+                                       0x3c58 (size before relaxing)
+ .debug_str     0x0000000000005dc1      0x18e /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysProcess.o)
+                                       0x3f0a (size before relaxing)
+ .debug_str     0x0000000000005f4f       0x70 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(SysTickTime.o)
+                                        0x189 (size before relaxing)
+ .debug_str     0x0000000000005fbf       0x45 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(TcpIPUpload.o)
+                                       0x3b0a (size before relaxing)
+ .debug_str     0x0000000000006004      0x3a6 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(Terminal.o)
+                                       0x4474 (size before relaxing)
+ .debug_str     0x00000000000063aa      0x127 /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(UART.o)
+                                       0x3c11 (size before relaxing)
+ .debug_str     0x00000000000064d1       0x1b /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(VersionNum.o)
+                                        0x111 (size before relaxing)
+ .debug_str     0x00000000000064ec        0xd /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(sl_app.o)
+                                       0x3aa1 (size before relaxing)
+ .debug_str     0x00000000000064f9      0x8ac /cygdrive/c/projects/ST86QDLOV0616CALL/soft/build/sl_app/app/lib/libapp_release.a(BuildDataPacket.o)
+                                       0x491f (size before relaxing)
+ .debug_str     0x0000000000006da5       0x94 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunssfsi.o)
+                                        0x156 (size before relaxing)
+ .debug_str     0x0000000000006e39       0x14 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fixunsdfsi.o)
+                                        0x156 (size before relaxing)
+ .debug_str     0x0000000000006e4d      0x150 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_sf.o)
+                                        0x255 (size before relaxing)
+ .debug_str     0x0000000000006f9d       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_sf.o)
+                                        0x1dd (size before relaxing)
+ .debug_str     0x0000000000006fad        0x8 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lt_sf.o)
+                                        0x1dd (size before relaxing)
+ .debug_str     0x0000000000006fb5        0xa /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_si.o)
+                                        0x1e5 (size before relaxing)
+ .debug_str     0x0000000000006fbf        0xe /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_sf_to_df.o)
+                                        0x1d6 (size before relaxing)
+ .debug_str     0x0000000000000000      0x187 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_sf.o)
+ .debug_str     0x0000000000006fcd       0x41 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_addsub_df.o)
+                                        0x25b (size before relaxing)
+ .debug_str     0x000000000000700e       0x45 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_mul_df.o)
+                                        0x22d (size before relaxing)
+ .debug_str     0x0000000000007053       0x35 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_div_df.o)
+                                        0x21d (size before relaxing)
+ .debug_str     0x0000000000007088        0x8 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_eq_df.o)
+                                        0x1e3 (size before relaxing)
+ .debug_str     0x0000000000007090        0x8 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_gt_df.o)
+                                        0x1e3 (size before relaxing)
+ .debug_str     0x0000000000007098        0x8 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ge_df.o)
+                                        0x1e3 (size before relaxing)
+ .debug_str     0x00000000000070a0       0x1e /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_si_to_df.o)
+                                        0x1c2 (size before relaxing)
+ .debug_str     0x00000000000070be        0xa /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_si.o)
+                                        0x1eb (size before relaxing)
+ .debug_str     0x00000000000070c8        0xa /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_df.o)
+                                        0x19d (size before relaxing)
+ .debug_str     0x00000000000070d2       0x14 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_df_to_sf.o)
+                                        0x1e2 (size before relaxing)
+ .debug_str     0x0000000000000000      0x187 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_thenan_df.o)
+ .debug_str     0x00000000000070e6       0x14 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_usi_to_df.o)
+                                        0x1be (size before relaxing)
+ .debug_str     0x00000000000070fa       0x34 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_lshrdi3.o)
+                                        0x189 (size before relaxing)
+ .debug_str     0x000000000000712e        0xa /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ashldi3.o)
+                                        0x189 (size before relaxing)
+ .debug_str     0x0000000000007138       0x1a /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_ucmpdi2.o)
+                                        0x178 (size before relaxing)
+ .debug_str     0x0000000000007152       0x20 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clzsi2.o)
+                                        0x169 (size before relaxing)
+ .debug_str     0x0000000000007172       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_sf.o)
+                                        0x1e4 (size before relaxing)
+ .debug_str     0x0000000000007182        0xb /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_sf.o)
+                                        0x1c6 (size before relaxing)
+ .debug_str     0x000000000000718d       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_sf.o)
+                                        0x1aa (size before relaxing)
+ .debug_str     0x000000000000719d        0xa /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_make_sf.o)
+                                        0x19d (size before relaxing)
+ .debug_str     0x00000000000071a7        0x9 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_pack_df.o)
+                                        0x1ea (size before relaxing)
+ .debug_str     0x00000000000071b0        0xb /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_unpack_df.o)
+                                        0x1cc (size before relaxing)
+ .debug_str     0x00000000000071bb       0x10 /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_fpcmp_parts_df.o)
+                                        0x1aa (size before relaxing)
+ .debug_str     0x0000000000000000      0x14c /crosscompiler/bin/../lib/gcc/mips-elf/4.4.2/libgcc.a(_clz.o)
