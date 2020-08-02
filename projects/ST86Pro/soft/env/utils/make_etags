@@ -1,4 +1,0 @@
-#!/bin/sh
-#tag for emacs users
-rm -f $SOFT_WORKDIR/TAGS
-for i in `find -L "$SOFT_WORKDIR" -name '*.[hc]'`;  do etags -o $SOFT_WORKDIR/TAGS -a $i; done
